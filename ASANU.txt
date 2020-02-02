@@ -1,3 +1,5 @@
+Current ARK Official Server Network Servers Version: v304.455
+
 Current Server Version: v304.455 - 1/30/20
 
     Added several improvements to the anti-meshj system to reduce false positives
@@ -24,3 +26,1103 @@ v304.4480 - 1/23/20
 
     Fixed anti-mesh issue with unconscious players
     Fixed anti-mesh issue with the ice cave in Ragnarok
+
+v304.447 - 1/22/20
+
+    Improvements to the anti-mesh system
+
+v304.445 - 1/22/20
+
+    Improved and added several upgrades to the meshing detection system
+
+By default, the anti meshing system will be on for the Official Network
+
+For Unofficials, these launch parameters can be used:
+-noundermeshchecking // Will turn it off the anti meshing system entirely
+-noundermeshkilling // Will turn it off the anti meshing player kills (but still allow teleporting)
+
+v304.443 - 1/20/20
+
+    Fixed an exploit with TEK items which allowed malicious players to output unintended damage.
+
+v304.44 - 1/11/20
+
+    Fixed a bug which would cause the Snow Owl heat vision to cause other clients FPS to drop when around large bases or a lot of creatures
+    Added additional server-side protection to Explorer Notes to prevent cheaters from acquiring them with hacks
+
+v304.43 - 1/9/20
+
+    Unattach all grapple hooks when sitting on a chair.
+    Disabled climbing picks from attaching to gateframes, charged lanterns, ladders, fence foundations, and railings.
+    Fixed 2 mesh exploit related to creatures.
+    Fixed 2 mesh exploits related to structures.
+    Fixed ice titan breath going through the mesh.
+    Fixed some cases where building structures did not use a bidrectional trace check (allowing certain structures to be placed deep into the mesh).
+    Fixed a case where a collision check on players wasn't correctly applying thereby allowing them to go enter some meshes.
+    Fixed a bug which prevented players entering 'K' cam a second time if they had a weapon/tool in their hand.
+    Fixed a bug with the Velonasaur's attacks causing it to incorrectly attack the wrong collision group on Paracers, Diplodocus, Brontos, and more creatures. (They should no longer take damage when you target the air beneath their bellies).
+    Fixed an incorrect collision profile which allowed MEKs to collide into and stack on top of one another.
+    Enforcer blink recharge cooldown reduced from 20 seconds to 7 seconds
+    Enforcer blink range extended from 4000 units to 5000 units
+    Enforce can no longer blink onto/or very very near creatures
+    Fixed a bug which would sometimes cause the atmospheric fog to break
+    Items placed on top of water pipes will now respect enemy foundations.
+    Pipes can no longer be placed on enemy structures
+    Fixed an exploit with the snow owl that allowed it to infinitely freeze players
+    Fixed the enemy build radius check for the fence support
+
+v304.42 - 1/7/20
+
+    Applied a one time disabling of replication (invisible) on all sleeping (logged off) players on all Official PvE servers. After logging back onto servers, the players will again replicate (visible) and will continue to remain so for subsequent sleeps. Following this update, if players have been offline for a continuous 2 week time period, their sleeping bodies will no longer replicate. This change will improve both client and server performance by reducing the amount of sleeping bodies that will need to be replicated.
+
+Current Client Version: v304.32 - 12/26/19
+
+    Fixed a client side crash related to rendering 3D text (would occur when placing signs, etc).
+
+v304.3 - 12/23/19
+
+    Improved third person view offset so that it now positions at the average head height rather than the center of the character's capsule. This should improve how it feels when the camera is brushed up against a collision in the world.
+        (Can be turned off by editing your ShooterGame\Saved\Config\WindowsNoEditor\GameUserSettings.ini -> Underneath the [/Script/ShooterGame.ShooterGameUserSettings] title add the following setting: bUseOldThirdPersonCameraTrace=true)
+    Improved third person aim offset so that there is less likelihood of foliage clipping and allow for tighter angles when aiming down
+        (Can be turned off by editing your ShooterGame\Saved\Config\WindowsNoEditor\GameUserSettings.ini -> Underneath the [/Script/ShooterGame.ShooterGameUserSettings] title add the following title: bUseOldThirdPersonCameraOffset=true)
+
+v304.4 - 12/20/19
+
+    Fixed a bug with Managarmr pounce damage
+    Chibi xp can no longer be buffed or affected by killing enraged corrupted Rex
+
+v304.23 - 12/19/19
+
+    Fixed an exploit
+
+v304.22 - 12/19/19
+
+    Fixed a collision issue with Velonasaurs
+    Fixed a network desync related to Velonasaurs
+    Fixed a client crash related to Velonasaurs
+    Fixed a client FPS bug related to Velonasaurs
+    Fixed a bug which allowed MEKs to be invulnerable to various types of damage
+    Fixed a bug which allowed Managarmrs to use their ice breath underwater/whilst swimming
+    Fixed a bug which allowed Velonasaurs to shoot endlessly in turret mode without draining stam
+    Fixed two damage miscalculation bugs with the Managarmr pounce and Velonasaur AOE Needle Spin
+    Fixed an exploit related to turret damage
+    Velonasaurs will now consume stamina whilst in AI-turret mode
+    Managarmr limited to 3 jumps, 6 strafes, and 1 dash before it has to land
+    Reduced Managarmr ice-breath exponential damage scaling by approximately 20%
+    Reduced Velonasaur recovery time (how much time is required to pass before the Velonsaur starts regenerating stamina) from 4 seconds to 1 second
+
+v304.2 - 12/18/19
+
+    Fixed issues relating to chibi max levels
+
+v304.1 - 12/17/19
+
+Initiation of Winter Wonderland:
+
+    Can be manually activated with: -ActiveEvent=WinterWonderland launch parameter
+    Increased rates to 2X Breeding (mating interval, egg hatch speed, and maturation)
+    Increased rates to 2X Player XP
+    Increased rates to 2X Harvesting
+    Increased rated to 2X Taming
+    Added Event-themed wild dino spawns
+    The Island has been given a makeover with a winter landscape and foliage.
+    Coal and Mistletoe can be obtained from Raptor Claus gift drops
+
+    Raptor Claus:
+
+    Will spawn at midnight and drop gifts across the island.
+    Gifts some special items like holiday structures, some skins, color candies, and chibis.
+
+    Gacha Claus:
+
+    Spawns on all maps
+    Placing coal/mistletoe in the inventory of a wild Gacha Claus will cause it to grow crystals.
+    The crystals have higher quality loot and a chance for chibis
+
+Added new items:
+
+    Bronto Ugly Sweater
+    Carno Ugly Sweater
+    Chibi Ugly Sweater
+    Red-Ball winter hat
+    Gray-ball Winter Hat
+    Purple Ball Winter Hat
+    Reindeer Antlers Hat
+    Nutcracker Slingshot
+    Christmas Bola Skin
+    2 sets of Event-themed underwear (tops and bottoms)
+    Chibi pets
+
+Added new emotes:
+
+    Happy Clap Emote
+    Caroling Emote
+    Nutcracker Dance Emote
+
+Added prior event skins:
+
+        Reindeer costume for Megaloceros
+        Dino Party Hat
+        Party Hat
+        Top Hat
+        Dino Santa Hat
+        Santa Hat
+        Candy Club
+    Added prior event creatures:
+        Gacha Claus
+    Added prior event items:
+        Coal
+        Mistletoe
+        Christmas Tree
+        Snowman
+        Stocking
+        Christmas Gift
+        Wreath
+        Holiday Lights
+
+Chibis:
+
+        Over 50 chibi pets from various DLC - including Genesis
+        Randomized coloring
+        Can be 'leveled' to increase character player level
+
+Wild Event Colors:
+
+        Red
+        Green
+        Light Grey
+        Light Red
+        Dark Green
+        Dark Red
+        Dino Light Red
+        Dino Light Green
+        Dino Medium Green
+        Dino Albino
+        NearWhite
+
+v303.1 - 12/11/19
+
+    Added HLN-A Explorer Notes 11-15 for Genesis Chronicles
+    Added Corrupted Avatar shirt and gloves for Genesis Chronicles
+    Reduced Plant Z flash range by 50%
+    Plant Z Grenades weight reduced from 10 to 5
+    Dedicated Storage weight reduced from 50 to 20
+    Decreased cook time on the industrial grill by 50%
+    Metal Cliff Platforms no longer take 50% less damage from explosive damage
+    Shortened aberration earthquake duration by ~10%
+    Shortened Scorched Earth sandstorm duration by ~15%
+    Bronto should no longer be affected by knockback
+    MEK pistol Damage reduced by 10%
+    Lowered gasoline consumption rate by 50% on the following structures:
+            Chemistry Bench
+            Electrical Generator
+            Fabricator
+            Industrial Cooker
+            Industrial Forge
+            Industrial Grill
+            Industrial Grinder.
+    Modified the stack size on various items:
+            Veggie Cake 5 -> 10
+            Raw Meat 20 -> 40
+            Cooked Meat 30 -> 50
+            Sap 20 -> 30
+            Fiber 200 -> 300
+            Thatch 100 -> 200
+            Organic Polymer 10 -> 20
+            Vacuum Compartment 100 -> 5
+            Vacuum Compartment Moonpool 100 -> 5
+    Modified the inventory slot size of various items:
+            Industrial forge 60 -> 100
+            Chemistry Bench 60 -> 100
+            Fridge 48 -> 80
+            Industrial Cooker 48 -> 80
+            Preserving Bin 24 -> 48
+            Mortar and Pestle 12 -> 24
+            Refining Forge 8 -> 24
+    Modified Drag weight of creatures to prevent carry by Quetz and Crab:
+            Galli
+            Kapro
+            Megalosaurus
+            Procoptodon
+    Reduced stun duration on jellyfish and eels by 20%
+            Wild eels 7 -> 5.6
+            Tamed eels 1.5 -> 1.2
+            Cnidaria 4 -> 3.2
+
+v302.7 - 12/4/19
+
+    Velonasaur exploit fix
+
+v302.61 - 12/3/19 (Official servers only)
+
+    Fixed a server crash
+
+v302.6 - 11/30/19
+
+    Fixed a server crash
+
+v302.41 - 11/25/19
+
+    Fixed issue with HUD visibility on OSDs
+    Fixed instance where cryopods could fall through mesh
+
+v302.4 - 11/22/19
+
+    Added animation staggering system by default to reduce CPU overhead -- dinos in the far-distance will update their animations on alternate frames. Players can disable in this in the Options Menu "Advanced Options" Tab: "Animation Staggering" (enables it at all at far distance) and "Low Quality Animations" (makes it more aggressive, lowers the distance at which staggering is used)
+    Improved client and server CPU performance in various ways
+    Vastly improved server stability, with various Network Channel threading crashes fixed
+    Changed droppeditem physics back to client-side prediction for player-dropped items, and physx-sleeping logic on droppeditems to improve server performance.
+    Improved droppeditem placement when dropping items from structures, to reduce the possibility of them getting stuck
+    Reloading bows from prone TPV no longer gets them stuck
+    Firing bows while in orbit camera no longer gets them stuck
+    Firing bows while running no longer gets them stuck
+    Made it easier to look at items to pick them up
+    Fixed the whip to properly pickup items that are flat on the ground (previously would miss such items)
+    Added "F" alternate activate option on items to pickup all items in a nearby range
+    Added optional new functionality to limit the number of droppeditems in an area, and enabled it on dedicated servers. To use it on unofficial servers, add the following INI values to your server's Game.ini ShooterGameMode section (> 0 to use the limit):
+
+LimitNonPlayerDroppedItemsRange=1600
+LimitNonPlayerDroppedItemsCount=600
+
+ v302.2 - 11/20/19
+
+    Fixed an exploit with Turkey Trial wishbones
+
+v302.1 - 11/19/19
+
+Initiation of Turkey Trial 3:
+
+    Increased rates to 2X Breeding (mating interval, egg hatch speed, and maturation)
+    Increased rates to 2X Player XP
+    Increased rates to 2X Harvesting
+    Added event-themed wild dino spawns
+    Added randomly spawning turkeys on all official maps
+    Modified the existing environment (trees) to be event themed
+
+Added new items:
+
+    Pilgrim Hat (cosmetic)
+    Bonnet Hat (cosmetic)
+    Turkey Hat (cosmetic)
+    Turkey Leg club skin (cosmetic)
+    Pitchfork Pike Skin (cosmetic)
+    Thanksgiving-inspired Dino Colorization Candy
+    3 sets of Event-themed underwear (tops and bottoms)
+
+Added new emotes:
+
+    Belly Emote
+    Hungry Emote
+    Food Coma Emote
+
+Added prior event skins:
+
+    Chieftain Hat
+
+Added prior event creatures:
+
+    DodoRex (Temporary tame)
+    Turkeys
+
+Added prior event items:
+
+    DodoRex Tribute
+    Wishbone
+
+Wild Event Colors:
+
+    Light Orange
+    Light Red
+    Dark Red
+    Dino Light Red
+    Dino Light Orange
+    Dino Dark Red
+    Yellow
+    Dino Albino
+    DragonFire
+    DragonBase1
+    DragonBase0
+    Light Yellow
+    Brown
+    Dino Albino
+    NearBlack
+    Light Brown
+    Dino Darker Grey
+
+v301.2 (Server) - 11/09/19
+
+    Fixed an exploit
+    Fixed a server crash
+
+ v301.1 - 11/08/19
+
+    Network backend upgrades, new major version required.
+
+v300.7 - 11/5/19
+
+    Added HLN-A Explorer Notes 6-10 for Genesis Chronicles
+    Added Corrupted Avatar boots and pants for Genesis Chronicles
+
+v300.6 - 11/3/19
+
+    Fixed an issue with imprinting and maturation relating to custom rates
+
+v300.5 - 10/31/19
+
+    Fixed an exploit
+
+v300.3 - 10/29/19
+
+    Fixed an exploit
+    Fixed issues with spawning and overspawn in relation to Fear Evolved event
+
+v300.1 - 10/24/19
+
+    Fixed overspawn on Valguero and Ragnarok
+    Fixed weird foliage appearing on TheCenter map
+    Fixed issue that caused items (Pumpkin, Scarecrow, and Stolen Gravestone) to disappear
+    Fixed issue with Headless Mask and taxidermy
+
+v300.0 - 10/22/19
+
+Fear Evolved 3:
+
+    Can be manually activated with server console parameter: -activeevent=FearEvolved
+    Increased rates to 2X Breeding (mating interval, egg hatch speed, and maturation)
+    Increased rates to 2X Player XP
+    Increased rates to 2X Harvesting
+    Added Event-themed wild dino spawns
+    Added randomly spawning gravestones and pumpkin patches
+    Added candy corn themed supply drops
+    Modified existing environment (trees) to be event themed
+    Modified existing moon to be event themed (blood moon)
+
+Added new items:
+
+    Jack O'Lantern Mask (cosmetic)
+    Hockey Mask (cosmetic)
+    Headless Neck Stump (cosmetic)
+    Halloween-inspired Dino Colorization Candy
+    Event-themed underwear (tops and bottoms)
+
+Added new emotes:
+
+    Spooky Emotes
+    Panic Emote
+    Spooky Dance Emote
+    Zombie Emote
+
+Added prior event skins:
+
+    DodoWyvern Mask Skin
+    Clown Mask Skin
+    Vampire Eyes Skin
+    Werewolf Mask Skin
+    Giganotosaurus Bone Costume
+    Jerboa Bone Costume
+    Quetzalcoatlus Bone Costume
+    Wyvern Bone Costume
+    DodoRex Mask Skin
+    Carno Bone Costume
+    Rex Bone Costume
+    Raptor Bone Costume
+    Bronto Bone Costume
+    Trike Bone Costume
+    Stego Bone Costume
+    Witch Hat Skin
+    Dino Witch Hat Skin
+
+Added prior event creatures:
+
+    DodoRex
+    Zomdodo
+    Dodo Wyvern
+
+Added prior event creature variants:
+
+    Skeletal Giganotosaurus
+    Skeletal Quetzal
+    Skeletal Jerboa
+    Bone Fire Wyvern
+    Zombie Fire Wyvern
+    Zombie Lightning Wyvern
+    Zombie Poison Wyvern
+    Skeletal Bronto
+    Skeletal Stego
+    Skeletal Trike
+    Skeletal Raptor
+    Skeletal Rex
+    Skeletal Carnotaurus
+
+Added prior event items:
+
+    Pumpkin
+    Stolen Headstone
+    Scarecrow
+
+Version: v299.27 - 10/10/19
+
+    Fixed an exploit
+    Fixed an issue with rare BSOD (blue screen of death) occurence
+
+v299.26 - 10/10/19
+
+    Cryopods are now able to be crafted at obelisk
+    Added HLN-A Explorer Notes 1-5 for Genesis Chronicles
+    Added Corrupted Avatar Armor helmet for Genesis Chronicles
+
+v298.41 - 9/18/19
+
+    Fixed an exploit with login system
+    Fixed an exploit with Tek sword dash and ziplines
+    Fixed a server crash when using the grapple hook
+    Optimizations resulting in more available RAM
+    Map fixes and polish (Aberration)
+    Fixed instances where stone pick and crossbow remained in lower resolution when starting the game in "extreme low memory mode"
+    Mek shield debuff is no longer given on shield deactivation
+    Buffed Tek Turret health by 50%
+    Outside of Mek shield debuff reduced to 30 seconds (from 60)
+    Snow Owl freeze buff will no longer dismount riders
+    Players and Dinos are now immune to the snow owl freeze for 10 seconds after being frozen
+    Snow Owl Encapsulate/freeze wind up changed from 1.3 seconds to 2.6
+    Reduced Tek Tapejara Saddle projectile damage by 30%
+    Reduced Plant Species Z Fruit weight to 10
+
+v298.40 - 9/16/19
+
+    Fixed an exploit
+    Fixed a server crash when using the grapple hook
+    Buffed Tek Turret health by 50% (To receive the new buffed health, you will need to pick up and place the TEK turrets)
+
+v298.37 - 8/27/19
+
+    Fixed a minor crash case
+    Set beer barrels to check for enemy foundations on placement, so they cannot be placed next to enemy structures set
+    Cryopods and cryofridges are now craftable in an obelisk terminal inventory as well as supply crate inventory
+    Minor map fixes for valguero
+
+v298.31 - 8/23/19
+
+    Fixed crash with crab claws
+    Added -pvedisallowtribewar flag
+    Added 'cheat tp' commands for red/blue/green/king terminals
+
+v298.3 - 8/8/19
+
+    Longneck Rifle armor penetration increased by 40%
+    Fabricated Sniper Rifle armor penetration increased by 25%
+    Ice Titan freeze ability reduced to 12 seconds
+    Plant Y trap time reduced to 10 seconds
+    Shadow Steak Saute light sensitivity removed
+    Forest Titan can no longer grab targets through Tek Shields
+    Forest Titan can no longer grab players who are piloting Meks
+
+v297.64 - July 2, 2019
+
+    Set gacha crystal to not be uploadable to the cloud
+    Deinonychus bleed now scales with melee damage
+    Fixed issue with dienonychus bleed damage not scaling all the time
+    Several Valguero map exploits and fixes
+    Deinonychus will no longer attach to babies :(
+
+Summer Bash Event - (Can be activated manually with -ActiveEvent=Summer)
+
+    Boosted Rates (Including Valguero). Does not include servers with existing game modes (i.e. Classic PvP, Small Tribes)
+        2X Breeding (mating interval, egg hatch speed, and maturation)
+        2X Player XP
+        2X Harvesting
+    Event-colored creature spawns
+    Seasonal candy that, when eaten, gives tames random dino colors (50 cooked meat)
+    Sparkler Skin (10 cooked meat)
+    Fireworks Flare Gun Skin (25 cooked meat)
+    RPG Firework Rocket Skin (50 cooked meat)
+    Summer Swimsuits Skins (male and female) (50 cooked prime meat)
+    Uncle Sam Tophat Skin (100 cooked prime)
+    Dino Uncle Sam Tophat Skin (100 cooked prime)
+    Flex Emotes (100 prime jerky)
+
+Dino Colors:
+
+    Navy
+    Red
+    White
+    Sky blue
+    Brick
+    Blue
+    Silver
+    Parchment
+    Mud
+    Orange
+
+v297.35 - June 21, 2019
+
+    Multiple map fixes on Valguero and small fixes on other maps
+    Increased the temperature at which deinonychus incubate
+    Fixed case where AI lands upside down when dismounting while on a wall
+    Fixed several cases of Deinonychus rotating backwards when jumping up walls while latched
+    Fixed exploit with Deinonychus
+    Improved ledge detection when jumping up walls
+    Deinonychus bleed now works on boss dinos
+    Improved Deinonychus  FPV
+    Improved wall jumping in laggy scenarios
+
+v296.01 - June 18, 2019
+
+    Fixed an exploit with Gasbags
+    Plant Z's weight is now 21
+    Fixed an exploit with feeding Plant Y seeds.
+    Cryopod and Cryofridge engrams are now available on all maps (edited)
+
+For modders, we've included some enhancements to the Dev Kit.
+
+    Added Git Plugin
+    Added JSON object library.
+    Added blueprint interface for anonymous communication between mods.
+    Added helper functions for:
+    Searching for creatures by ID.
+    Retrieving filtered class lists.
+
+v296.106 - June 12, 2019
+
+    Fixed an exploit
+
+v296.104 - May 28, 2019
+
+    Fix for Enforcer exploit
+    Metrics changes
+
+v296.101 - May 14, 2019
+
+    Hundreds of fixes across all maps including mesh holes and updated collision to better match the visual landscape
+    Various fixes to ramming issues with the Triceratops
+    Updated metrics systems
+    copycoordstoclipboard command now works in spectator mode
+
+v295.108
+
+    Implemented structure memory optimizations
+        New command line option to enable optimization on unofficial servers: -structurememopts
+        Important: avoid using new command line when running structure-related mods
+    Fixed issues with snap points on remote end of the Tek Bridge
+
+v295.106
+
+Eggcellent Adventure
+
+    Added missing Dino Marshmallow Hat skin to the Cooking Pot
+
+Plant X
+
+    Disabled Fast Turret Targeting change for now, further iteration required
+
+Dinos
+
+    Fixed movement bugs related to stacked impulses change which affected movement for Managarmr, Gasbags, and others
+
+Turrets
+
+    Now ignore players using 'leavemealone' or 'enemyinvisible' admin cheats
+
+Mantis
+
+    Fix for weapons not equipping properly
+
+v295.102
+
+Eggcellent Adventure 4 (2019)!
+
+    Auto Activates 4/16-4/30
+        Not supported in Primitive Plus mode
+    Wild Bunny Oviraptors
+        50% of wild Oviraptors (33% of wild Aberrant Dodos on Aberration) are Bunny Oviraptors
+        Cannot be tamed
+        NEW! Drop Easter Candy as they spread Easter joy!
+            Feed your candy to your tame for a fun festive effect!
+    Wild Bunny Dodos
+        50% of wild Dodos (33% of wild Aberrant Dodos on Aberration) are Bunny Dodos
+        Cannot be tamed
+        Drop Easter Eggs as they spread Easter joy!
+    Easter Eggs
+        Can be placed in the world and painted
+    Easter Skins
+        Craftable in the Cooking Pot from Easter Eggs
+        Bunny Ears Skin
+        Procoptodon Bunny Costume
+        NEW! Marshmallow Dodo Hat
+        NEW! Chocolate Bunny Club
+        Egg Shell Hat
+        Chick Hat
+    Wild creatures have a chance to spawn with additional colors: Green, Magenta, Yellow, and Blue
+
+Managarmr
+
+    Drastically reduce frost breath range
+        Freezing stops at approximately turret range
+        Damage stops at approximately half turret range
+
+Prim+
+
+    Fixed inability to craft Primitive+ specific resources in the forge
+    Fixed inability to harvest coal from obsidian
+    Fixed inability to harvest beeswax
+    Fixed problems with beehive functionality
+    Cauldron/Industrial Cooker can now craft new kibble
+    New kibble is now functional on dinos
+
+Meshing
+
+    Hole fixes across Aberration, Extinction, Island, Ragnarok, Scorched Earth, and The Center
+    Iteration on metrics
+    Desert Titan now requires line-of-sight to do melee or lightning damage
+    Prevented cryoing Karkinos while they are carrying something
+
+Environment
+
+    Added bottom cap to mushroom trees on Aberration
+    Fixed Aberration Surface Damage gaps
+    Fixed issue with blue mushrooms not allowing Ankylo to harvest properly on Aberration
+    Moved 4 spawn points to be out of potential geo on The Island
+    Fixed location where player could become stuck on Extinction
+
+Exploits
+
+    Fixed exploit related to stacking physics impulses
+    Fixed exploit related to Rockwell Tentacles
+    Fixed exploit related to Tek Swords
+    Fixed exploit related to Fish Baskets
+
+Platform Saddle
+
+    Enable platform build limits saddles PlatformSaddleBuildAreaBoundsMultiplier, can be used to increase this radius on unofficials
+    Prevent platform Saddles counting towards the max turret limit
+
+Taxidermy
+
+    Now properly supports Weapons on Humans!
+    Adjusted Desert Titan's dermis offset
+
+Homestead
+
+    Icon Iteration
+    Fixed LODs for Tek Triangle Roof
+    Setup colorization for Fence Foundation
+    Setup colorization for Wood Railing
+
+Kentrosaurus
+
+    Added a hard clamp to damage reflection
+
+Equus
+
+    Fix preferred kibble
+
+GPS Transponders
+
+    Fixed transponders disappearing
+    Placed Transponder Node no longer scales up after restart
+
+Mind Wipe
+
+    Updated description of Mind Wipe to reflect 24-hour cooldown
+
+Cryopods
+
+    Cryosick dinos are no longer able to attack
+    Now use players in-game name in the tribe log
+
+Industrial Cooker
+
+    Now supports pulling water from any connected source
+    Never auto-activates when connected to water
+
+Extinction
+
+    Removed GlobalCuddleFoodList Override array
+
+Turrets
+
+    Use FastTurretTargeting system automatically for anything moving faster than 300 cm/s
+
+Sloped Wooden Wall
+
+    Adjusted Left Sloped Wooden Wall to fit better with attaching to a normal wall
+
+C4
+
+    Can now place C4 near ORP protected structures, except near foundations
+
+Dino Leash
+
+    Dino leashes no longer can be placed near enemy foundations
+
+Armor
+
+    Fix for lod issue for flak
+    Fix for lod issue for Ghillie
+
+LOD iteration for
+
+    Basilisk
+    Doedicurus Saddle
+    Mammoth Saddle
+
+Server Version: v294.115
+
+    Fixed server crash related to Tek Bridges and Vaults
+    Added givetekengramsto admin command
+    Iteration on undermesh metrics
+
+Server Version: v294.110
+
+- Iteration on undermesh metrics
+
+Server Version: v294.108
+
+- Added additional metrics
+
+Server Version: v294.101
+
+Homestead
+
+    Fixed double door pickup after pickup timer has expired
+    Disabled structure pickup when inventory is full
+    Fixed bug preventing Triangle Roofs from being placed on Large Walls
+    Increased health of Fence Supports
+    Added Homestead Tek engrams to the boss dinos on Scorched, Aberration, and Extinction
+    Kibble
+        Set Yutyrannus eggs to be usable with Extraordinary kibble recipes
+        Fixed imprint requests on Scorched Earth
+        Fixed imprint requests on Aberration
+        Icon alterations
+    Dedicated Storage
+        Fixed potential crash
+        Disabled Withdraw Stack if your inventory is full
+        Now drops full inventory in all scenarios
+        Removed mention of fridge, as storage does not function as such
+
+ Managarmr
+
+    Now take damage equivalent to flyers
+    Fixed Managarmr’s forward dashing when walking off edges
+
+Manta
+
+    Reduced speed gain per level
+
+Extinction
+
+    Added Hesperornis spawns to the Desert and Snow biomes
+    Fixed a water volume in the Desert biome that was not set to trigger on collision
+    Adjusted Desert water spawner values to have more fish
+
+Aberration
+
+    Oviraptors are now allowed to transfer in.
+
+Trike
+
+    Speculative fix for infinite trike ram bug
+
+Ghillie
+
+    Boot armor now matches other pieces
+
+Non-Homestead Tek
+
+    Added more Tek engrams to various bosses
+
+Platform Saddles
+
+    Re-disabled C4 placement
+    Disabled High Wall placement
+
+Exploits
+
+    Fixed exploit related to Enforcer
+    Fixed exploit related to Basilisks
+    Fixed exploit related to Fence Supports
+    Fixed exploit related to Tusoteuthis
+    Fixed exploit related to platform limits
+
+Crashes
+
+    Fixed crash related to mounts and walls
+    Fixed crash related to Managarmrs
+
+Performance
+
+    Improved server perf when turning on and off electrical/water networks in certain circumstances
+
+Disconnects
+
+    Fixed Disconnect related to Flex Pipes
+
+Mosasaurus
+
+    Reduced Mosasaurus speed per level up by 50%
+
+Gasbags
+
+    Set Gasbags to mature at the rate of Wooly Rhinos due to similar utility capabilities
+
+Explorer Notes
+
+    Fixed Explorer Note menu display bug
+
+v293.105
+
+- Fixed an exploit
+
+v293.104
+
+- Fix for crash related to placing Tek Bridges
+- Fix for Primitive Plus crashing
+
+v293.103
+
+- Fixed stalls during teleporting near large bases
+- Fixed hitches when playing near large bases
+- Fixed issue with snapping in mods (S+, others...)
+
+v293.100 Homestead!
+
+S+
+
+    Variant System
+        Added Structure variant system to cycle visuals for a structure
+    Structure Pickup
+        Enabled pickup of the following structures:
+            Elevator Platforms
+            Elevator Tracks
+            Electric Generator
+            Grill
+            Industrial Forge
+            Industrial Grinder
+            Chem Bench
+            Fabricator
+            Tek Generator
+            Tek Replicator
+            Tek Transmitter
+        Disabled pickup of Bee Hives
+        Added ServerSettings ini config option StructurePickupHoldDuration to allow unofficials to configure (or disable by setting to 0) the quick-pickup hold duration
+        Changed default for quick-pickup to 0.5 seconds (from 1 second)
+    Structure Additions
+        Added 'Smooth' sidewall variants (like the stone foundation) to the stock square foundations [Adobe, Metal, Stone, Tek, Thatch, Wood]
+        Triangle foundations [Adobe, Metal, Stone, Tek, Wood]
+        Triangle ceilings [Adobe, Metal, Stone, Tek, Wood, Greenhouse]
+        Triangle roofs [Adobe, Metal, Stone, Tek, Wood, Greenhouse]
+        Large (4x height) walls [Adobe, Metal, Stone, Tek, Wood]
+        Flexible pipes [Stone, Metal]
+        Flexible electrical cables
+        Stairs (with freely swappable ramp variant) [Adobe, Metal, Stone, Tek, Wood]
+        Double door frames [Adobe, Metal, Stone, Tek, Wood]
+        Double doors [Adobe, Metal, Stone, Tek, Wood]
+        Tek Dedicated storage (Tek structure that allows storing a large amount of a single resource)
+        Fence supports (allows you to build fences that are level along the top) [Adobe, Metal, Stone, Tek, Wood]
+
+Kibble Rework
+
+    Categorized Kibble
+    Creatures prefer their category of Kibble or above
+    Produced
+        Allosaurus - Superior
+        Ankylosaurus - Regular
+        Archaeopteryx - Simple
+        Argentavis - Superior
+        Baryonyx - Regular
+        Basilisk - Exceptional
+        Brontosaurus - Exceptional
+        Carbonemys - Regular
+        Carnotaur - Regular
+        Compy - Simple
+        Dilophosaur - Basic
+        Dimetrodon - Regular
+        Dimorphodon - Simple
+        Diplodocus - Regular
+        Dodo - Basic
+        Featherlight - Basic
+        Gallimimus - Simple
+        Giganotosaurus - Exceptional
+        Glowtail - Basic
+        Hesperornis - Extraordinary
+        Ichthyornis - Simple
+        Iguanodon - Simple
+        Kairuku - Basic
+        Kaprosuchus - Regular
+        Kentrosaurus - Regular
+        Lystrosaurus - Basic
+        Mantis - Superior
+        Megalania - Superior
+        Megalosaurus - Superior
+        Micro Raptor - Simple
+        Morellatops - Simple
+        Moschops - Superior
+        Oviraptor - Simple
+        Snow Owl - Superior
+        Pachycephalosaurus - Simple
+        Pachyrhinosaurus - Regular
+        Parasaur - Basic
+        Pegomastax - Simple
+        Pelagornis - Regular
+        Pteranodon - Simple
+        Pulmonoscorpius - Regular
+        Quetzalcoatlus - Exceptional
+        Raptor - Simple
+        Rex - Exceptional
+        Rock Drake - Extraordinary
+        Sarcosuchus - Regular
+        Spinosaur - Superior
+        Stegosaurus - Regular
+        Tapejera - Superior
+        Terror Bird - Regular
+        Therizinosaurus - Exceptional
+        Thorny Dragon - Regular
+        Titanboa - Superior
+        Triceratops - Simple
+        Troodon - Regular
+        Velonasaur - Regular
+        Vulture - Basic
+        Wyvern - Extraordinary
+        Yutyrannus - Exceptional
+    Preferred
+        Allosaurus - Superior
+        Angler Fish - Regular
+        Ankylosaurus - Regular
+        Araneo - Simple
+        Archaeopteryx - Simple
+        Argentavis - Superior
+        Baryonyx - Regular
+        Basilosaurus - Exceptional
+        Beelzebufo - Regular
+        Brontosaurus - Exceptional
+        Carbonemys - Regular
+        Carnotaur - Regular
+        Castoroides - Superior
+        Daeodon - Superior
+        Dilophosaur - Basic
+        Dimetrodon - Regular
+        Dimorphodon - Simple
+        Diplocaulus - Simple
+        Diplodocus - Regular
+        Direbear - Superior
+        Direwolf - Superior
+        Dodo - Basic
+        Doedicurus - Regular
+        Dunkleosteus - Superior
+        Gallimimus - Simple
+        Gasbags - Superior
+        Giant Bee - Simple
+        Gigantopithecus - Regular
+        Giganotosaurus - Exceptional
+        Griffin - Extraordinary
+        Ichthyornis - Simple
+        Ichthyosaurus - Simple
+        Iguanodon - Simple
+        Kairuku - Basic
+        Kaprosuchus - Regular
+        Karkinos - Exceptional
+        Kentrosaurus - Regular
+        Lymantria - Regular
+        Mammoth - Superior
+        Managarmr - Exceptional
+        Megalania - Extraordinary
+        Megaloceros - Simple
+        Megalodon - Superior
+        Megalosaurus - Superior
+        Megatherium - Superior
+        Mesopithicus - Basic
+        Morellatops - Simple
+        Mosasaurus - Exceptional
+        Onyc - Simple
+        Snow Owl - Superior
+        Pachycephalosaurus - Simple
+        Paraceratherium - Superior
+        Parasaur - Basic
+        Pegomastax - Simple
+        Pelagornis - Regular
+        Phiomia - Basic
+        Plesiosaurus - Superior
+        Pteranodon - Regular
+        Pulmonoscorpius - Regular
+        Purlovia - Regular
+        Quetzalcoatlus - Exceptional
+        Raptor - Simple
+        Rex - Exceptional
+        Rock Elemental - Extraordinary
+        Sabertooth - Regular
+        Sarcosuchus - Regular
+        Spinosaur - Exceptional
+        Stegosaurus - Regular
+        Tapejera - Superior
+        Terror Bird - Regular
+        Therizinosaurus - Exceptional
+        Thorny Dragon - Regular
+        Thylacoleo - Extraordinary
+        Triceratops - Simple
+        Velonasaur - Regular
+        Woolly Rhino - Superior
+        Yutyrannus - Extraordinary
+
+Exploits
+
+    Fixed exploit related to water well
+    Fixed exploit related to Titan downloads
+    Fixed exploit related to Velonasaurs
+    Fixed exploit related to Platform Saddles
+
+Crashes
+
+    Fixed crash related to shoulder pets
+    Fixed crash related to Taxidermy
+
+Managarmr
+
+    Fixed issue with Managarmr breath causing flyers to teleport
+    Fixed Managarmr's forward dash not triggering consistently when spamming it
+    When Managarmr freezes a dino with a rider, the rider will no longer be dismounted but rather frozen for 1 second
+    Character frozen visual effect should change more smoothly
+    A player frozen either standing, crouching, or prone can no longer change that state
+    Duration of frozen for player characters is now a function of health and armor rating
+    Duration of frozen for player characters is significantly reduced overall
+    Cheat spawning a dino should no longer cause you to get stuck on that dino if it dies while being frozen by Managarmar Ice breath
+    Reduced Managarmr ice breath damage ~25%
+    Added new freeze immune icon
+
+Environments
+
+    Fixed buildable space outside of bounds
+    Fixed multiple holes and meshing locations
+    Moved Desert Titan player spawn point to an area inside the structure prevention zone
+    Fixed climbable trees in Extinction
+
+Kairuku
+
+    Base affinity increased by 30% now that it has a preferred kibble
+
+Ice Wyverns
+
+    Fixed creature icon being blank
+
+Item Stacks
+
+    Fixed ConfigOverrideItemMaxQuantity issue with RawPrimeMeat
+
+Giganotosaurus
+
+    Increased damage required to enrage a giga by 55%
+
+Corrupted Heart
+
+    Fixed item to use correct icon
+
+Mind Wipe
+
+    Characters can be respeced once every 24 hours
+
+UI
+
+    Improved search filtering on inventory and crafting menus
+
+Elevators
+
+    Set Primitive Elevator Platforms and Tracks to be craftable by wood instead of requiring fungal wood
