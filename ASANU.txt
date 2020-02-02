@@ -1,0 +1,26 @@
+Current Server Version: v304.455 - 1/30/20
+
+    Added several improvements to the anti-meshj system to reduce false positives
+
+v304.454 - 1/28/20
+
+    Fixed an issue with the anti-mesh system where ladders could cause a false positive
+    Fixed an exploit with refertilizer
+
+v304.453 - 1/27/20
+
+    Improvements to the action-taking capabilities of the anti-mesh system
+
+v304.45 - 1/26/20
+
+    Updated BattleEye
+    Fixed several static meshes to improve the anti-mesh system
+
+v304.4481 - 1/24/20
+
+    Fixed several anti-mesh false-positives on Extinction and Valguero
+
+v304.4480 - 1/23/20
+
+    Fixed anti-mesh issue with unconscious players
+    Fixed anti-mesh issue with the ice cave in Ragnarok
