@@ -1,6 +1,7 @@
-Stay Tuned! News to come!
-2/2/2020
-
+Soon! v0.1500
+The next update has so many new things, new setup, new expired menu, new GUi configuration, you can update through the program, you can get news from ark through my program,
+dynamic hotkeys the YOU define, new ini's, experimental Ini mode with my program....
+so many things, next week or so donators will get it first!
 
 
 v0.1000 Release
