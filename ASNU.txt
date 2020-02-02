@@ -1,2 +1,86 @@
 Stay Tuned! News to come!
 2/2/2020
+
+
+
+v0.1000 Release
+-Added Stealth Security (Just in case BattlEye decides to be a dick)
+-Added New GUI ground work. ( This is big! without this the newer stable version of this program won't work.
+
+-Fixed Hotkey Adjustment speeds.
+
+Other News
+-New Ini's are coming soon, please make sure you've upgaded to v0.1000 before trying them out.
+As they're not out yet. All the ground work for them are in place. Upgrade as soon as you can.
+No Information will be lost in this upgrade.
+
+
+
+v0.999 Released!  HOTFIX RELEASE
+-Added NEW ini this one allows you to play the game in "default " but with the removal of plant z, plant x, beer etc... effects.
+-Added Submenu for the above added as well.
+
+
+
+v0.998 Released!
+-Added  Two more ini's! FOG REMOVAL! Not enough? They come jam packed with increased performance as well! (From those ini's)
+-Added Submenu for the above added as well.
+-Mass Giga Breeding! Using the below added hotkeys!
+
+-Adjusted Bring forward Application Hotkey now F12
+
+-Fixed Funny Movie Quotes (Now Works!) Laugh Away!
+-Fixed Donation Location & Actions. I'm now using Venmo!
+-Fixed ALL HOT KEYS. Let's face it the hotkeys I had set weren't that reliable. Press F11 To Learn them all!
+-Fixed Steam Restart/Start
+
+-Removed Useless Code to speed up the application.
+-Removed Old Hotkeys that locked up application.
+There's still so much more to be done. Sorry for the downtime, lot going on in my life. Will try my best to continue to update this application, thank you for all that have donated I really hope you enjoy this New version of ArkShark!
+
+
+
+v0.995 Released!
+-Added Auto Transfer with "T" (For Feeding babies for Alt-Characters or if you're stepping away)
+-Added Skip  "System Information" button on Main Menu. On "Ini Enhancement" Tab  (If ticked, it won't calculate your folder drive space, allowing Ark Shark to load much faster.)
+-Added Open/Show Application from Icon in Tray Icon
+
+
+
+v.0.990 HOTFIX RELEASE!
+-Fixes issues with the application on start looping.
+-Removed code that was no longer needed.
+-Increased Load time of application
+
+PLEASE UPDATE WHEN YOU CAN!
+
+
+
+v0.985 Released!   Warning!  if you get a boot loop with this application, please use v0.98 above till this is fixed. Donated user should not have this issue.
+-Fixed Direct Connect Fav4 & Fav5 Not Saving Correctly.
+-Updated Tooltip with MORE HOTKEYS!
+-Completely Redesigned the System Tray Access Menu's. Check them out over in #📷screen-shots📷 :)
+-Added Achatina Paste Collection (Be aware, this is heavy beta, very simple ATM, you still have to click in the search area for the application. Simply walk up to Snail an Click Right CTRL+A) Look closely at Tooltip Directions
+-Added Even Faster Reloads of Ark Shark Activation via Hotkey, Right CTRL+ALT+R to quickly Reload the Application to update info of fix loops quickly!
+-Added Even Faster Termination of Ark Survival Evolved via Hotkey, Right CTRL+ALT+S to quickly Kill the Application (Note: No safety Switch on this)
+-Added Reload of Steam Application on Main Menu. Steam Locked Up? Steam not loaded? I got you Fam, click the button on the main menu or from the tray icon, "Quick Actions"
+
+
+
+v0.98 Released!
+This is been released earlier to fix some common issues people have been having. Sorry I haven't been hitting this as hard as I usual do. The first stable release is getting closer to being done!
+
+In this release the following as been done:
+
+-Fixed Hot Key Duration, was 800mil now 300mil (Much faster!)
+-Added Tool Tip for Hotkeys, press F11 to see them at any time.
+-Removed Four Buttons in "AutoEverything" for Hotkey Activation
+-Added one button that explains how the activations of those buttons work.
+-Fixed Normal Ark Loader, once activated it gave a random number. Now display your current Ini an loads game normal.
+
+
+
+v0.95 Released!
+Hotfix Applied.
+Fixed long load time.
+Fixed Donation Button. (This info can also again, be found in the #💲ark-shark-donation💲 channel as well.)
