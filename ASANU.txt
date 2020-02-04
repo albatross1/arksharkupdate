@@ -1,8 +1,13 @@
-Current ARK Official Server Network Servers Version: v304.455
+Current ARK Official Server Network Servers Version: v304.456
 
-Current Server Version: v304.455 - 1/30/20
+Current Server Version: v304.456 - 2/3/20
 
-    Added several improvements to the anti-meshj system to reduce false positives
+   Fixed a false positive with the anti-mesh system that was being triggered when Rock Drakes pushed a player into the mesh
+
+v304.455 - 1/30/20
+
+   Added several improvements to the anti-meshj system to reduce false positives
+
 
 v304.454 - 1/28/20
 
