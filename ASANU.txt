@@ -45,7 +45,12 @@ Past Event Items
 
 ***************************************************************************************************************************************
 
-Current ARK Official Server Network Servers Version: v304.456
+Current ARK Official Server Network Servers Version: v304.458
+
+Current Server Version: v304.458 - 2/6/20
+
+   Fixed an issue that prevented dinos, chibis, and tribe members from getting XP if you were max level
+
 
 Current Server Version: v304.456 - 2/3/20
 
