@@ -2,9 +2,33 @@ Soon! v0.1500 Public Release!
 
 *** Donators only at this time. ***
 
-The next update has so many new things, new setup, new expired menu, new GUi configuration, you can update through the program, you can get news from ark through my program,
-dynamic hotkeys the YOU define, new ini's, experimental Ini mode with my program....
-so many things, next week or so donators will get it first!
+As I did promise a release the week. I've fallen behind on my coding. **BUT!** I won't let you suffer for it. I'm releasing this newer version for my donators first but **PLEASE, PLEASE** read the known issues.
+
+-Added Two new menu systems (Hotkey Config, Update(s))
+-Added **Three more Ini's**!
+-Added Dark Mode *For Donators only (It's under "System Config")
+-Added Auto Check for New Ark Shark Programs through the program.
+-Added Auto Check latest news of Ark Shark and Ark:Survival Evolved through Ark Shark
+-Added New Ini Detection for new setups. "Auto-Ini" Find added.
+-Added If the program expires now, for the non-donators, they have a clear menu you can pull the UCID and or Revert Back to Original Ini
+-Added Experiment with Ini Settings on main page. Will allow you to launch the game way more easily with custom Ini on the fly.
+-Added Information "?" for each Ini to learn about what it does before you use it.
+-Added Centered Cross Hair in-game. (This isn't ready yet. but does work. Click the "Open Ark Paintings Folder" button as I hid it there for now to activate it.)
+
+-Fixed Ini Button telling what they are when the launch. Made it way faster.
+-Fixed World Clocks to sync with daylight savings.
+-Fixed Initial Setup problems.
+-Fixed Activation and UCID grabbing issues.
+-Fixed some of the naming schemes of the menu systems.
+-Fixed menu location with new naming schemes. (Take a moment to find where everything is now.)
+
+**Warnings! Read everything below before using this new version of the program.**
+
+-**You need to re-find you ini before using this program** do to a format variable change. To do this simply go to the "System Config" tab and select the "Change your source Locations" button. Feel free to use the Auto-Find to make this go much faster.
+- **DO NOT USE** - Currently the **HotKeyConfig **area. I've ran into a boat load of bugs, which I'm currently fixing.
+-The Dark mode not work, if somehow someone who hasn't paid gets this, it simply won't work.
+-The experimental Ini section ***relies on you follow the rules***. Read what it tells you an follow what it says to do, if you don't be ready to reload the application.
+-The hotkey reload button no longer works. Either use from the try or menu you system. 
 
 
 v0.1000 Release
