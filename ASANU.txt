@@ -1,27 +1,19 @@
-Valentines Day - Coming Soon!
-Love Evolved (formerly known as Valentines Day) is returning next week!  Love Evolved will be active on Tuesday, February 11 18:00 UTC and will run through Tuesday, February 18 18:00 UTC.
+Current ARK Official Server Network Servers Version: v304.458
 
-While ARK is under Cupid's spell, you can expect to find past event items and  brand new skins!  See the full event details below:
+Current Server Version: v305.13 - 2/11/20
 
-Dates
+Initiation of Love Evolved:
 
-   2/11 - 2/18 18:00 UTC
+   Can be manually activated with server console parameter: -activeevent=vday
+   Increased rates to 3X Breeding (mating interval, egg hatch speed, and maturation)
+   Increased rates to 2X Player XP
+   Increased rates to 2X Harvesting
+   Increased rates to 2X Taming
+   Added Event-themed wild dino spawns
+   Added a valentines variant of the Coelacanth. For the duration of the event you should be able to go anywhere Coel will spawn and find some looking for love. Reel in these amorous fish and be showered in candies, some chocolates and even chibi pets!
+   Chocolates can be used to heal your tames or provide a big boost in acquiring new tames!
 
-Activities
-
-   For the duration of the event, Coelacanth will be fishing for some love.  Reel in these amorous fish and be showered in candies, some chocolates and even chibi pets!
-
-Rates
-
-   Increased breeding rates to 3x (mating interval, egg hatch speed, and maturation)
-   Increased player XP rates to 2x
-   Increased harvesting rates to 2x
-
-New Emotes
-
-   Flirt Emote
-
-New Items
+   Added new items:
 
    "Cupid Couture Bottom" (Pants Skin)
    "Cupid Couture Top" (Shirt Skin)
@@ -29,23 +21,29 @@ New Items
    "Teddy Bear Grenades" (Grenade Skin)
    "Bow & Eros" (Bow skin)
    "Love Shackles"  (Handcuffs Skin)
-   6 New Chibi Pets
+   6 New chibi pets
 
-Wild Event Creature Colors
+   Added new emotes:
+
+   Flirt Emote
+
+   Added prior event items:
+
+   Valentine Chocolates
+   Valentine Candies
+
+   Wild Event Colors:
 
    Red
    Magenta
    Light Red
    White
 
-Past Event Items
+   Additional Bug Fixes:
 
-   Valentine Chocolates - Chocolates can be used to heal your tames or provide a big boost in acquiring new tames!
-   Valentine Candies - Candies can be used to give a tamed dinosaur a random coloring!
+   Fish baskets and beehives should now return creatures properly
+   Extra protections to prevent loss of chibi experience
 
-***************************************************************************************************************************************
-
-Current ARK Official Server Network Servers Version: v304.458
 
 Current Server Version: v304.458 - 2/6/20
 
