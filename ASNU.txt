@@ -1,9 +1,18 @@
+v0.1700
+Public Release!
+
+Basically read below for updates on this release. I added a few fixes that were needed.
+
+-Fixed Hotkey that do not work. (More will be coming, it's just the clicker currently.)
+-Fixed "Esc" being used for the hotkey stop. (Because I'm stupid) It's now **"CTRL+ESC"** to stop the hotkey.
+-Fixed Auto-Find & Custom/Manual Find ini (**THIS MUST BE DONE ONCE COMING FROM v.0.1000**)
+-Fixed Auto Update downloading wrong version.
+-Fixed Dark Mode not working in v0.1600
+
 v0.1600
-*** Donators only at this time. ***
 
 This is more of application hotfixes and stability update. Feel free to upgrade.
 
-Next Update v0.1600
 -Fixed Dark Mode
 -Fixed Manual Install quoting wrong reference point.
 -Fixed Finding "Future Version" downloading. Currently your in-application download won't grab this release if you're coming from v.1500 after this update it will know to grab the next version when available. (Working on a new prediction script.) Next update.
