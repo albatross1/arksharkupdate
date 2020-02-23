@@ -1,3 +1,9 @@
+Next release lots more fixes, adding auto-ini adjustment. Will allow you to apply the tek helm/snow owl fix to ANY INI you've chosen, and fix it on the fly if you want!
+
+This is still a WIP. Donators will get it first for the first week it is becomes available! It will be available free to everyone else after! :)
+
+Will be adding a second area, for customizable ini as well, by choosing what you want to see, the program will create it on the fly! :heart: That's later though, but it's in the works! Stay tuned!
+
 v0.1700
 Public Release!
 
