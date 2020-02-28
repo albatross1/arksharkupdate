@@ -1,3 +1,21 @@
+It's done! If you have auto-update on you already have it but v0.2000 is here!
+
+What's New?
+-Added Global Font Installer (Donators Only)
+-Added Start the game with Global Installer using my program for those who are lazy, and don't want to figure out configuring Ark to work with Global Installer.
+-Added Auto-Ini Snow Owl & Tek Gear Fix - When enabled will work with ANY INI you choose. BEAWARE THOUGH it may change some the visuals your used to with a certain ini.
+-Added Auto Check for New Ark Shark Programs through the program.
+
+What's fixed?
+-Fixed Centered Cross Hair in-game. (This isn't ready yet. But does work. Click the "Toggle Cross Hair" button using F10 to turn it off and F11 to adjust what it looks like an color. ALSO it works with any game!
+-Fixed Hard Drive Calculations. Thanks for the pre-alpha tester Vorkoz for the support on seeing this break.
+-Fixed Direct Connect erroring out because of a VAR change. Thanks for the pre-alpha tester Vorkoz for the support on seeing this break.
+-Fixed Dark Mode not working for new users because of needed files.
+-Fixed Some missed lines of stupid code slowing things down.
+
+Listen please read below. LIKE READ THIS. I MEAN YOU. YOU READ THIS DON'T IGNORE THIS!!!!!!!!
+-You need to re-find you ini before using this program to do a internal format variable change. To do this simply go to the "System Config" tab and select the "Change your source Locations" button. Feel free to use the Auto-Find to make this go much faster.
+
 Update: 80% done with Global Font Auto-Installer. To make the Friday release I'll release the next version once I'm not with the portion. The next update after that will be the adjustment of the POV.
 
 Update: So I got home a verified with two accounts, as of right now, nothing is happening with enforcement or changes to the ini. So business as usual. Nothing will need to change with my program! Which personally for me means less coding which means I can get you this next release to you soon! Can't wait!
