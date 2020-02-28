@@ -1,4 +1,37 @@
-Current ARK Official Server Network Servers Version: v304.458
+Current ARK Official Server Network Servers Version: v306.53
+
+Current Version: v306.63
+
+   Reduced high quality tier loot drop rate from missions by approximately 40%
+   Changed ocean platforms to be Blueprints only in mission rewards (to prevent demolishing rewards for materials)
+   Increased damage to insect swarms by Beelzebufo to 2.5x
+   Increased damage to insect swarms by Fire to 1.5x
+   Reduced health of insect swarms by 50%
+   Reduced AoE damage on the tek cruise missle
+   Reduced the explosion radius and explosion emitter size on the tek cruise missle
+   Fixed issue where insect swarms could attack through walls
+   Fixed an issue with Megachelon (turtle) taming method
+   Restricted cryo use and disabled building in the VR boss arena
+   Fixed an issue where rock slides would linger after ending
+   Fixed several visual bugs with Magmasaur
+   Fixed several visual bugs with Space Whale
+   Fixed several bugs with the Ferox taming process
+   You must now hold the sprint key with the Ferox when super jumping. In order to super jump, just jump again + shift right before landing after a regular jump.
+   Bloodstalker can no longer be knocked out
+   Ambergris weight now scales by 0.5 in Magmasaur to help with raising babies
+   Adjusted the platform build area on the Megachelon
+   Fixed a taming bug with the Bloodstalker
+   Fixed a crash with Extinction's horde crate and element node
+   Restored Extinction Horde mode data
+   Fixed some bugs which caused projectiles to not expire on clients
+
+v306.53 - 2/26/20
+
+   Building is now enabled in mission areas by default on Unofficial Servers (no longer need to use the aforementioned ini to change it)
+   To disable building in mission areas, add the following setting to your Game.ini under the ShooterGameMode section: bGenesisUseStructuresPreventionVolumes=true
+   Unofficials can now using flying creatures by adding the following setting to your GameUserSettings.ini under the [ServerSettings] section: bForceCanRideFliers=True
+
+We are investigating ways to bring these configuration options to consoles in a future update. 
 
 Current Server Version: v305.13 - 2/11/20
 
