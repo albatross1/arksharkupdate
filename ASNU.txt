@@ -1,3 +1,15 @@
+Update: 80% done with Global Font Auto-Installer. To make the Friday release I'll release the next version once I'm not with the portion. The next update after that will be the adjustment of the POV.
+
+Update: So I got home a verified with two accounts, as of right now, nothing is happening with enforcement or changes to the ini. So business as usual. Nothing will need to change with my program! Which personally for me means less coding which means I can get you this next release to you soon! Can't wait!
+
+Update: The below seems to be intermittent with some people not having any issues at all with the program. I'm prolly still going to make the adjustment but many if any may not need it.
+
+Update: I've now gotten multiple reports that "currently" anyone trying to load the game with the latest update, Ark is reverting the ini code back to default. It's been tested with my application an it looks as if some minor tweaking on my side I can get the ini working again with the newer maps as well. Basically having my program change the ini after game load instead of before. This shouldn't be a issue.
+
+I want to repeat, working with the ini with game like this, twists like this will always happen, be careful using this program. As again it operates currently in a "grey" area that can be changed. It hasn't been touched or changed in forever. An with as many people who use my program or manually do it themselves a "mass ban" like that simply doesn't seem possible or worth it. With as many third party applications using it for non-officials it would be crazy if they did anything further.
+
+Going forward, my next update will release sometime Friday with even more updates and the new timing fix for what has been put in place. So hang tight I'll keep everyone updated on anything I hear along the way! Thank you again!
+
 Next release lots more fixes, adding auto-ini adjustment. Will allow you to apply the tek helm/snow owl fix to ANY INI you've chosen, and fix it on the fly if you want!
 
 This is still a WIP. Donators will get it first for the first week it is becomes available! It will be available free to everyone else after! :)
