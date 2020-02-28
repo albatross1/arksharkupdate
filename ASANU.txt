@@ -1,4 +1,17 @@
-Current ARK Official Server Network Servers Version: v306.53
+Current ARK Official Server Network Servers Version: v306.67
+
+Current Version: v306.67
+
+
+   Set kapro race to use "Teleport Out of Bounds" functionality
+   Fixed space whale's display name
+   Cruise missile now has a 2.55s arming period ("Arming Duration") before it can do it's nuke explosion
+   If Cruise missile is destroyed or detonated before then, it now does a harmless explosion
+   Reduced Tek Claw damage against structures
+   Fixed player emote specific to Portugese language setting
+   Fixed certain languages not finding appropriate directories
+   Basketball Missions rewards should now match their intended reward returns
+
 
 Current Version: v306.63
 
@@ -31,7 +44,7 @@ v306.53 - 2/26/20
    To disable building in mission areas, add the following setting to your Game.ini under the ShooterGameMode section: bGenesisUseStructuresPreventionVolumes=true
    Unofficials can now using flying creatures by adding the following setting to your GameUserSettings.ini under the [ServerSettings] section: bForceCanRideFliers=True
 
-We are investigating ways to bring these configuration options to consoles in a future update. 
+We are investigating ways to bring these configuration options to consoles in a future update.
 
 Current Server Version: v305.13 - 2/11/20
 
