@@ -1,4 +1,19 @@
-Current ARK Official Server Network Servers Version: v306.67
+Current ARK Official Server Network Servers Version: v306.75
+
+Current Version: 306.75
+
+   Fixed a bug where Pelas and Itchys would fly to xyz coordinates 0 0 0
+   Fixed a bug where players could attack each other with the mining drill
+   Fixed a bug where items may have received an unintended item cap
+   Item and Creature transfers have been enabled outside of Genesis
+   Temporarily added TEK Replicators to the Loot Crates until they can be better placed on the map
+
+
+v306.74
+
+   Fixed a critical crash
+   Removed mission requirement for additional players when entering the final boss with a player who has the requirements.
+
 
 Current Version: v306.67
 
