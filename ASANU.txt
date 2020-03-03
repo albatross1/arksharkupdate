@@ -1,4 +1,20 @@
-Current ARK Official Server Network Servers Version: v306.75
+Current ARK Official Server Network Servers Version: v306.8
+
+Current Version: 306.8
+
+   Fixed implementation of newly added Genesis configuration settings
+   Disabled XP on Gauntlet missions
+   Some TEK suit abilities have been disabled on regular Genesis servers
+
+v306.79
+
+   GameUserSettings.ini:
+       AllowTekSuitPowersInGenesis=True (to enable or disable TEK suit powers in Genesis)
+   Game.ini:
+       bDisableGenesisMissions=true (to enable or disable missions on Genesis)
+   Temporarily reduced affinity needed to tame Bloodstalker until further tweaks can come in later
+
+We are investigating ways to bring these configuration options to consoles in a future update. 
 
 Current Version: 306.75
 
