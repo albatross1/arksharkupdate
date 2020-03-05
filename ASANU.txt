@@ -1,4 +1,11 @@
-Current ARK Official Server Network Servers Version: v306.8
+Current ARK Official Server Network Servers Version: v306.83
+
+Current Version: 306.83 - 3/4/2020
+
+   PVE caves on genesis mare now arked non-buildable
+   The ice cave on genesis is now marked non-buildable on PvP
+   Fixed incorrect damage for building in Arctic and Ocean biome
+
 
 Current Version: 306.8
 
@@ -14,7 +21,7 @@ v306.79
        bDisableGenesisMissions=true (to enable or disable missions on Genesis)
    Temporarily reduced affinity needed to tame Bloodstalker until further tweaks can come in later
 
-We are investigating ways to bring these configuration options to consoles in a future update. 
+We are investigating ways to bring these configuration options to consoles in a future update.
 
 Current Version: 306.75
 
