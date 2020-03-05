@@ -1,3 +1,13 @@
+Still working on a solid ini to replace the illegal having issues. Some ini just are not designed for Genesis so be aware of that.
+
+-Added a program stop requested by a donator. It stops the auto-start of Ark when you switch Ini's. BE VERY CAREFUL with this.
+
+-Fixed the hot key system! This will be rolling out soon!
+-Fixed auto-update to pull latest program. (Currently you have to go version by version.)
+
+More coming soon! Hoping next release will be done by tomorrow! Stay tuned!
+
+***********************************************************************************************************************************************************
 ***** FOR THOSE HAVING ISSUES WITH THE INI's PLEASE VISIT MY DISCORD AND VOTE! I'm focusing my effort to fix the ones having the most problems first! *****
 ***********************************************************************************************************************************************************
 
