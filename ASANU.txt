@@ -1,4 +1,10 @@
-Current ARK Official Server Network Servers Version: v306.83
+Current ARK Official Server Network Servers Version: v306.84
+
+Current Version: 306.84 - 3/5/2020
+
+   Fixed an exploit with Ferox
+   Fixed a display bug with the Hexagon Shop
+
 
 Current Version: 306.83 - 3/4/2020
 
