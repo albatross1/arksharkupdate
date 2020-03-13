@@ -1,4 +1,22 @@
-Current ARK Official Server Network Servers Version: v306.84
+Current ARK Official Server Network Servers Version: v306.89
+
+Current Version: 306.89 3/11/2020
+
+   Fixed an exploit with Ferox
+
+v306.88 3/10/2020
+
+    Fixed several performance-related crashes
+
+Current Version: 306.87 3/9/2020
+
+   Fixed an exploit
+
+v306.86 3/6/2020
+
+   Magmasaur now requires metal ingots to shoot projectiles
+   Magmasaur projectile speed and gravity adjusted for proper turret targeting in low FPS conditions
+
 
 Current Version: 306.84 - 3/5/2020
 
