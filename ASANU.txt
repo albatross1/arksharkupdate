@@ -1,4 +1,64 @@
-Current ARK Official Server Network Servers Version: v306.89
+Current ARK Official Server Network Servers Version: v307.02
+
+Current Version: 307.02 3/13/2020
+
+   Adjusted Ferox knockback distance for PvE scenarios in which it could move other tribes tames
+   Increase to timers on various beta and alpha race missions
+   Fixed instances where the lunar buff would remain after using a TEK Teleporter
+   Fixed a rare occurrence where Ferox could jump through the mesh or get through the world barrier
+   Fixed a bug where Ferox could jump while over-encumbered
+   Fixed a bug that caused Ferox taming meter to be invisible
+   Corrected Ferox size when attached with the Sarco's barrel roll
+   Removed the ability for BloodStalker to grab and pull forest/desert kaiju
+   Improved navigation issues on Escort Missions
+   Removed the Crab's ability to pick up the Dodo-basketball
+   Improved reliabilty of HLNA teleportation when traveling with tames
+   Fixed several taming effectiveness and taming multiplier bugs with BloodStalker and Giant Turtle
+   Fixed a case where Space Whale could blink behind static meshes
+   Fixed a bug with Ferox that allowed it to stay transformed by forcefeeding
+   Fixed an issue with mindwipes that caused them to have an increased cooldown timer
+   Adjusted platform saddles to prevent cheesing Gauntlet MissionsCHECK
+   Removed the ability to place structures on baby turtles
+   Fixed an instance in which tamed dinos would be launched long distances by avalanches
+   Adjusted the loot quality and rewards on several missions
+   Improved the overall feel and appearance when webbed by BloodStalker
+   Fixed a visual bug with the Space Whale saddle that caused skins to remain on when the saddle is removed
+   Adjusted the Giant Turtles basing logic to prevent extreme use cases
+   Reduced mobility for BloodStalker while over-encumbered
+   Fixed a bug where the Giant Turtle could be tamed out of render distance
+   Improved placement of walls when using an Ocean Platform
+   Fixed an instance where players with glide suits weren't being reeled in properly by BloodStalker
+   Removed the ability to apply a skin to the Giant Turtle and Space Whale platform saddle when structures have been placed
+   Fixed an instance where the mining drill could dismount players
+   Fixed occurences where players could incorrectly get inside of Gauntlet missions
+   Creatures can no longer attack through the barrier while on Gauntlet missions
+   Added Deinonychus saddle to the engrams list
+   Fixed a visual bug with the Hover Skiff rotation when restarting the server
+   Improved performance while riding over rocky terrain on the Hover Skiff
+   Fixed a bug with Ferox taming methods
+   Fixed an instance in which the BloodStalker's web could remain attached after teleporting with HLNA
+   Fixed a rare occurrence where the Dodo Basketball mission could not be completed after switching languages
+   Fixed several visual bugs with HLNA teleportation
+   Fixed a bug that prevented players using gamepads from using the throw attack on Karkinos
+   Fixed an issue that caused a Follow whistle command when holding 'B' on a gamepad
+   Added the ability to use the Reaper tailspin attack while using a gamepad
+   Schools of fish no longer damage rafts and motorboats
+   Improved several areas where localization was missing or incorrectly
+   Fixed an occurrence where the mining drill sound would remain playing after mounting a dinos
+   Fixed instances with damage scaling while using weapons with projectiles
+   Added several missing items to the HLNA Hexagon Store
+   Removed the ability to give birth to Reapers while on Genesis
+   Fixed a rare bug that caused recent mission progress to be lost after a server restart
+   Added a HUD notification during the VR Boss fight to indicate you've reached the limit
+   Fixed a bug that caused the Space Whale corpse to disappear after 1 hit
+   Increased the reliability of repairing glitches
+   Basilisks can now be tamed on Fertilized Magmasaur Eggs
+   Fixed several mesh holes
+   Improved turrets ability to damage cruise missiles in low FPS settings
+   Improved several visual components in the Mission UI
+   Fixed a bug that prevented several Genesis dinos from being downloaded on Aberration
+   Fixed occurrences where Magmasaur could damage structures out of turret range
+
 
 Current Version: 306.89 3/11/2020
 
