@@ -1,4 +1,9 @@
-Current ARK Official Server Network Servers Version: v307.02
+Current ARK Official Server Network Servers Version: v307.4
+
+Current Version: 307.02 3/13/2020
+
+   Fixed a crash related to the bog spider
+
 
 Current Version: 307.02 3/13/2020
 
