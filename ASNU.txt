@@ -1,3 +1,18 @@
+Side note, the big reason why my releases have been running late is because I found a awesome un-official server to play on. It's owned by a good friend of mine an it's the full Ark Cluster with beyond awesome rates, they make Ark even more addicting. If you want a break from officials for any reason, check out his cluster! It's PvP AND PvE locked cluster! Heads up I'm admin over there as well! <3
+
+https://discord.gg/KazzaMD
+
+Hot of the press! v0.2200 release!
+
+-Added new Ini "New Illegal Ini"
+-Added all the hotkeys requested (11+), more to come!
+-Added STOP Auto-Starting the game toggle. (User Requested)
+
+-Fixed issues with user defined hotkeys
+-Fixed Slider issue
+-Fixed the application Auto-Update (Now always updating to latest version, not version by version.)
+-Fixed Snow Owl Healing "Wrong Auto-Click xD"
+
 Still working on a solid ini to replace the illegal having issues. Some ini just are not designed for Genesis so be aware of that.
 
 -Added a program stop requested by a donator. It stops the auto-start of Ark when you switch Ini's. BE VERY CAREFUL with this.
