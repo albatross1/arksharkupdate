@@ -1,4 +1,11 @@
-Current ARK Official Server Network Servers Version: v307.4
+Current ARK Official Server Network Servers Version: v307.42
+
+Current Version: 307.42 3/16/2020
+
+   Fixed an invulnerability exploit for ferox
+   Fixed cooldown time for the mindwipe
+   Fixed an infrequent server crash
+
 
 Current Version: 307.02 3/13/2020
 
