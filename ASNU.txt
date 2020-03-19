@@ -1,3 +1,11 @@
+Working on a new ini's!
+
+I have one now that removes fog on all maps WITH the new adjustment the dev's have done to the game. But it's working currently as a enhanced ini only. I'm working on combining it with some of the settings in the "new illegal" ini to see if I can make a new hybrid!
+
+Stay tuned!
+
+
+
 Side note, the big reason why my releases have been running late is because I found a awesome un-official server to play on. It's owned by a good friend of mine an it's the full Ark Cluster with beyond awesome rates, they make Ark even more addicting. If you want a break from officials for any reason, check out his cluster! It's PvP AND PvE locked cluster! Heads up I'm admin over there as well! <3
 
 https://discord.gg/KazzaMD
