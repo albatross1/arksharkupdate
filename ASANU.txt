@@ -1,4 +1,72 @@
-Current ARK Official Server Network Servers Version: v307.42
+Current ARK Official Server Network Servers Version: v307.56
+
+Current Version: v307.56 - 3/20/2020
+
+PvP Official Server Wipe for the following:
+
+   TEK Suits (Chest, Leggings, Helm, Gauntlets, and Boots)
+   MEKs (MEK Attachments & Ammo included)
+   Cluster Grenades
+
+Official Server Genesis wipe for the following:
+
+   Tamed Reapers
+
+Note: Any tamed MEK or Reaper that was in a cryopod now cannot be spawned when deploying that cryopod. You can either let it expire, or throw them out.
+
+TEK Suits:
+
+   Increased TEK Suit repair costs by approximately 20%
+   Wearing a full TEK suit will prevent you from being targeted by bees when opening a bee hive
+   Capped TEK Suit durability at 1500
+   TEK Suit repair costs now scale with quality
+
+MEKs:
+
+   Pistol Damage versus Tamed Creatures reduced by 30%
+   MEK Rocket Boost (tapping/holding space) should no longer damage tamed creatures or players.
+   Reduce MEK movement speed by 20% when shield is up
+   Sword Damage versus Tamed Creatures and Players reduced by 25%
+
+Bog Spider Balance Changes:
+
+   Reduced the range at which it can grapple an enemy to just slightly below maximum auto turret range (5800 units)
+
+Pelagornis Balance Changes:
+
+   Polymer weight reduced by 80% when in Pelagornis inventory
+   Increased polymer harvesting by approximately 30%
+
+Rhino:
+
+   Decreased the maximum damage scale from 12.5x to 8x when charging
+   Increased the time/distance it takes to charge up to max by 20% (so it'll take longer to hit that 8x)
+   Rhinos are now affected by Plant Y crowd control
+
+Cluster Grenades:
+
+   Cluster fragments if shot by a turret will now detonate all other fragments from the same originating grenade
+
+Fabricator:
+
+   Can now craft the TEK Replicator (TEK Replicator has been removed from Loot Crates in Genesis)
+   Mindwipe Changes:
+   Initiated a one-time forced respec of all characters on Official Servers
+   Initiated a one-time forced mindwipe cooldown clearance of all characters on Official Servers
+
+QOL:
+
+   Added a "Grind All" function added to grinders
+   Added an optional visual indicator for the TEK trough radius
+   Note: This setting is defaulted to OFF. Also it does not save, meaning it must be turned on if you leave stasis range. This will be resolved in a future update
+   Gachas will no longer auto consume buff soup/food. This means they won't accidentally eat them when they're stored in troughs.
+   Disabled cryosickness on PvE Official Servers (Can be disabled on Unofficials using: EnableCryoSicknessPVE=true in the GameUserSettings.ini)
+
+Bug Fixes:
+
+   Fixed a bug which allowed players to cancel the Spinos' animation and attack twice.
+   Fixed multiple bugs related to locations showing Mission Areas when they weren't supposed to or vice versa
+
 
 Current Version: 307.42 3/16/2020
 
