@@ -1,4 +1,13 @@
-Current ARK Official Server Network Servers Version: v307.56
+Current ARK Official Server Network Servers Version: v307.6
+
+Current Version: v307.6 - 3/22/2020
+
+   Fixed a bug which prevented the Moeder boss fight from initiating correctly
+
+v307.59 - 3/21/2020
+
+   Fixed a bug which prevent players from seeing Primitive+ servers
+   Fixed an issue with crafting costs on TEK items
 
 Current Version: v307.56 - 3/20/2020
 
