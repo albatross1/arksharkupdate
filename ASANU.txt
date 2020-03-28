@@ -1,4 +1,45 @@
-Current ARK Official Server Network Servers Version: v307.6
+Current ARK Official Server Network Servers Version: v309.4
+
+Current Version: v309.4 - 03/26/2020
+
+   Fixed an issue with collision on several meshes
+   Fixed several mesh holes in various biomes
+   Improved hover skiff movement and operation on steep terrain
+   Fixed a damage exploit with Ferox
+   Ferox should now keep its imprint buff when in large form
+   Reduced cloning cost for the Giant Turtle
+   Improved HLNA performance when crafting a large number of items
+   Teleporting East in the Bog biome will no longer transport the player South East
+   Insect swarms now give chitin instead of hide
+   Modified the no-build zone in the main volcano cave
+   Adjusted the trajectory of lunar comets to prevent edge cases of players and dinos dying
+   Fixed a rare case where the mining drill could damage the tek sensor
+   Activation/deactivation settings will now save on the tek alarm
+   Activation/deactivation settings will now save on the pressure plate
+   The lava on The Island in caves and the lava in the Wyvern trench on S.E. will no longer damage Magmasaur
+   Improved localization on the Rockwell boss fight and end cutscene
+   Cryopods can be accessed in the HLNA Shop again
+   Enabled several performance-related visual tweaks on wild Astrocetus
+   Improved the accuracy of HLNA cardinal direction when teleporting
+   HLNA teleportation logic now tries to avoid turrets, non-allied players, and hostile dinos
+   Fixed an exploit with cruise missiles that allowed them to bypass turrets
+   Improved several visual components of the mission UI (difficulty text, leaderboards, item lists, mission notifications)
+   Made adjustments in areas near the volcano to fix rare instances where eruptions would instantly kill players/dinos
+   Significantly reduced the frequency and slightly increased the duration of green rain in the bog biome
+   Reduced the number of insect swarms in Bog biome by about 25%
+   Added a cooldown between green rain insect swarm spawns.
+   Fixed an edge case that caused the player to be destroyed when mounting an Equus and equipping its saddle
+   Increased the placement radius check for ocean platforms to prevent them from being placed next to enemy foundations/platforms
+   Prevented Meks from being deployed in the VR Mission
+   Fixed an issue that prevented players from receiving the mission buff in specific biomes (Bog/Ocean/Arctic)
+   Fixed the increased damage multiplier in various biomes
+   Reduced the bat spawns in the main volcano within the volcano biome
+
+v307.8 - 03/24/2020
+
+   Fixed an issue that would prevent players connecting to OC servers
+   Re-enabled configuration to prevent Reapers from being transferred to Genesis.
+
 
 Current Version: v307.6 - 3/22/2020
 
