@@ -1,4 +1,44 @@
-Current ARK Official Server Network Servers Version: v309.4
+Current ARK Official Server Network Servers Version: v309.53
+
+Current Version: v309.53 - 04/03/2020
+
+   Completed a full pass on Loot Crates to improve loot variation and quality
+   Fixed 100+ holes, terrain, and level design issues across various maps
+   Magamasaur no longer takes damage from lava on The Center
+   Fixed a mounting exploit with Magamasaur
+   Fixed an issue with Dedicated storage locking behavior on PvE (Players could withdraw items when it was "locked")
+   Fixed a bug that allowed building within the boss arena on Valguero
+   Made several collision improvements for meshes on Aberration
+   Added a debuff to reduce damage to tames, players, structures for a short duration of time after releasing from cryo.
+
+This can be configured on unofficial servers by using the following command line parameters:
+
+bEnableCryopodNerf, CryopodNerfDuration, and CryopodNerfDamageMult
+
+Where CryopodNerfDamageMult=0.01 means 99% of the damage is removed. This will be enabled on our Official PvP Servers with a 90% reduction for 10 seconds.
+
+   Parasaurs no longer detect bodies that are not visible or rendered
+   Fixed several missing notifications on gather, retrieve, basketball, hunt, and escort missions
+   Fixed an exploit that allowed Ferox to clip inside enemy structures
+   Ferox can no longer be trapped with a bola
+   Reduced the amount of element received by Red Crystals on Genesis by 33%
+   Increased the amount of materials harvested by the mining drill by 33%
+   Players recover 50% faster from the frozen state left by the Snow Owl dive
+   Removed the Snow Owl heal effect on enemy players and enemy-tamed creatures (wild creatures are still affected)
+   Snow Owl dive slow has been reduced to 2.5 seconds
+   Fixed a bug where Ferox Stats were being rerolled after first time transforming
+   Prevented itchy from stealing cryopods
+
+v309.44 - 04/01/2020
+
+   Fixed a turret exploit with the Space Whale
+
+v309.42 - 03/30/2020
+
+   Fixed a server crash
+   Fixed multiple cases where the Bloodstalker couldn't swing around Extinction
+   Fixed some configuration issues with the dynamic rates ini on non-standard official servers
+
 
 Current Version: v309.4 - 03/26/2020
 
