@@ -10,7 +10,7 @@ Hope everyone is happy an healthy during this covid19 pandemic, sorry I haven't 
 - Remove un-needed buttons from locations in my program that "User Defined Hotkeys" already do.
 
 = Fix for application crashing with the error found in #💢known-issues💢
-
+= Fixed Screenshot folder location (best I can)
 
 As usual as soon as it's released the @Donators will get a knock at it first, an way in on changes/updates/add-ons, then the final release will come out to everyone else later on! If you haven't donated now's the time, I'd appreciate the support!
 
