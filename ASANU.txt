@@ -1,4 +1,49 @@
-Current ARK Official Server Network Servers Version: v309.53
+Current ARK Official Server Network Servers Version: v310.34
+
+Current Version: v310.34  -  04/16/2020
+
+   Activated Dupe Prevention System on Official PvP servers
+
+v310.29 - 04/15/2020
+
+    Fixed multiple server crashes
+
+v310.27 - 04/14/2020
+
+   Adjusted several creatures for the prevention of mesh biting
+   Fixed a crash that resulted when trying to craft an item from the hotbar
+   Ferox breeding/mutation movement speed has been corrected to be consistent between small and large Ferox.
+   Terrain textures have been improved on The Island in areas where it appeared to be low quality
+   Improved several terrain areas in Genesis that caused players to get stuck, to be incorrectly teleported, or allowed players to unfairly exploit.
+   Fixed an issue with the lighting in caves on The Island
+   Fixed an exploit with turrets and ziplines
+   Fixed an exploit with meshing and the cruise missile
+
+v310.19 - 04/11/2020
+
+   X-Dinos will now receive the Active Event Colour Override
+   Increased % chance of active event colour dinos spawning from 10% to 25%
+   Fertilized Eggs now have a warning when a player attempts to consume them
+   Fixed an exploit that allowed you to get under the map.
+
+v310.11 - 04/07/2020
+
+   Added Eggcellent Adventure event content
+   Fixed a bug where MEK pistol could damage players mounted on a dino
+   Reduced MEK pistol damage to players by 85%
+   Reduced MEK Pistol range by 25%
+   Increased the amount of materials harvested by the mining drill
+   TEK Shield now has a limited number of crafts (like other TEK blueprints)
+   Made multiple improvements to the Hexagon Exchange UI
+   Fixed a bug where releasing from a cryopod using EnableCryopodNerf would cause them to take 10x damage for the time set.
+   Introduced an increase incoming damage multiplier from the cryopod-release debuff
+       This can be adjusted with the command line/GameUserSettings.ini parameter 'CryopodNerfIncomingDamageMultPercent' where 0.25 = 25%
+       This is enabled on our Official PvP servers and is set to 25% by default
+   Loot crates will now automatically open when purchased if you are flying or swimming
+   Prevented MEKS from being able to be stacked inside each other
+   Fixed an issue with TEK durability that prevented stat capping
+   Argents can no longer pick up smaller wild aggressive creatures in PvE
+
 
 Current Version: v309.53 - 04/03/2020
 

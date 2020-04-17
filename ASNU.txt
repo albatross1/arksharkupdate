@@ -1,3 +1,19 @@
+Update! 4/17
+
+Hope everyone is happy an healthy during this covid19 pandemic, sorry I haven't been throwing out as many updates as I normally do. But I have been working on this project with my @Alpha Tester team! We have great news going forward with the next update.
+
++ Ark Settings Backup (so if a update or file check erases all your settings you can press one button in my application an restore it)
++ FOV can be defined in my application which can go waaaaaaaaaaaaaaay higher than the game allows, allowing you to see more.
++ Two more Ini's No FOG (ON any map) Enhanced an Illegal
++ More hotkeys, such as auto-run/fly (think cruise control) and a few others (Auto-Eat & Drinking).
+
+- Remove un-needed buttons from locations in my program that "User Defined Hotkeys" already do.
+
+= Fix for application crashing with the error found in #💢known-issues💢
+
+
+As usual as soon as it's released the @Donators will get a knock at it first, an way in on changes/updates/add-ons, then the final release will come out to everyone else later on! If you haven't donated now's the time, I'd appreciate the support!
+
 Working on a new ini's!
 
 I have one now that removes fog on all maps WITH the new adjustment the dev's have done to the game. But it's working currently as a enhanced ini only. I'm working on combining it with some of the settings in the "new illegal" ini to see if I can make a new hybrid!
