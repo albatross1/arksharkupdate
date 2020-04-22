@@ -1,4 +1,30 @@
-Current ARK Official Server Network Servers Version: v310.34
+Current ARK Official Server Network Servers Version: v310.41
+
+Current Version: v310.41
+
+
+   End of Eggcellent Adventure.
+   Enabling 2x harvest, breeding, XP and taming
+   Fixed a bug with Cruise Missiles which caused them to detonate on the player firing
+   Fixed a bug which prevented MEKs from attacking structures
+   Fixed an exploit with the Rock Drake
+   Fixed multiple level design issues related to holes, floating foliage, volumes, and lighting
+   Fixed multiple server crashes and server stalls
+   Fixed a bug with certain creatures attacking through structure walls
+   Reduced the Giant Turtle's bubble-blowing attack on when above ground
+   Marked Valgeuro's Ice Golem and Chalk Golem as unable to transfer
+   Valguero Ice wyvern class switched to Ragnarok Ice Wyvern
+   Fixed an exploit that allowed mission creatures to be used in unintended ways
+   Added additional kill volumes to unintended playable areas
+   Fixed an exploit which allowed certain creatures to attack structures through walls
+   Fixed a bug that could cause items to transfer back to your own inventory when transferring from personal to remote with the T key.
+   Adjusted (reduced) the Thyla cost for cloning
+   Fixed a bug with the grenade launcher where it sometimes wouldn't use all its ammo
+
+v310.36 - 04/18/2020
+
+   Additional server side protection against exploits
+
 
 Current Version: v310.34  -  04/16/2020
 
