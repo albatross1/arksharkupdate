@@ -1,4 +1,11 @@
-Current ARK Official Server Network Servers Version: v310.41
+Current ARK Official Server Network Servers Version: v310.47
+
+Current Version: v310.47 - 04/27/2020
+
+   Improvements to the anti dupe protection
+   Retroactive fix for Valguero Ice Wyverns which were stuck as "Raptors" in cryopods. (Note: you'll still see the raptor icon until you deploy the cryopod)
+   Fixed holes/floating foliage
+   Resolved some anti meshing false positives
 
 Current Version: v310.41
 
