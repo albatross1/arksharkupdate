@@ -1,4 +1,26 @@
-Current ARK Official Server Network Servers Version: v310.47
+Current ARK Official Server Network Servers Version: v310.62
+
+Current Version: v310.62 (.61 client) - 05/01/2020
+
+   Fixed multiple meshing exploits
+   Fixed an exploit which would cause players to become invisible
+   Fixed multiple server stalls
+   Fixed multiple level issues including holes, floating foliage, areas where they could get stuck, and missing volumes
+   Mindwipe Tonic now warns players before being consumed
+   Created a cheat command to grant unlimited weight for admins (Cheat deeppockets or cheat infiniteweight)
+   Lava Lizard can now be spayed or neutered
+   Fixed some missing icon related to holiday emotes
+   Fixed a bug which could have caused characters to fail to download
+   Disabled the temporary additional server crash logging
+
+v310.53 - 04/30/2020
+
+   Fixed some server stalls and crashes
+   Enable additional logging to identify server crashes & stalls
+
+v310.5 - 04/29/2020
+
+   Additional server crash and performance monitoring heuristics
 
 Current Version: v310.47 - 04/27/2020
 
