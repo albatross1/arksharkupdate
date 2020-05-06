@@ -1,4 +1,24 @@
-Update! 4/17
+Update! 5/6
+
+Version 0.2600 has landed! Hope everyone is happy an healthy during this covid19 pandemic, if anything it's given my time to research an provide you with a much needed update to Ark Shark!
+
+So here it is, going to you first. Tomorrow it will release to the public so keep in mind the update make be wonky till the public release.
+In this release I've done the following!
+
++ Ark Settings Backup (so if a update or file check erases all your settings you can press one button in my application an restore it)
++ FOV can be defined in my application which can go waaaaaaaaaaaaaaay higher than the game allows, allowing you to see more. Also BACKUP YOUR SETTINGS!
++ Two more Ini's No FOG (ON any map) Enhanced an Illegal
++ More hotkeys, such as auto-run/fly (think cruise control) and a few others (Auto-Eat & Drinking).
++ A restore mode for people using the global font.
+
+- Remove un-needed buttons from locations in my program that "User Defined Hotkeys" already do.
+- Removed unwanted verbiage and global checkbox, it's controlled manually from the install now.
+
+= Fix for application crashing with the error found in #💢known-issues💢
+= Fixed Screenshot folder location (best I can)
+
+
+4/17 Update
 
 Hope everyone is happy an healthy during this covid19 pandemic, sorry I haven't been throwing out as many updates as I normally do. But I have been working on this project with my @Alpha Tester team! We have great news going forward with the next update.
 
