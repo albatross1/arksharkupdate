@@ -2,7 +2,6 @@ Update! 5/6
 
 Version 0.2600 has landed! Hope everyone is happy an healthy during this covid19 pandemic, if anything it's given my time to research an provide you with a much needed update to Ark Shark!
 
-So here it is, going to you first. Tomorrow it will release to the public so keep in mind the update make be wonky till the public release.
 In this release I've done the following!
 
 + Ark Settings Backup (so if a update or file check erases all your settings you can press one button in my application an restore it)
