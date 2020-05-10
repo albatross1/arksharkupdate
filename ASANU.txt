@@ -1,4 +1,27 @@
-Current ARK Official Server Network Servers Version: v310.62
+Current ARK Official Server Network Servers Version: v310.76
+
+Current Version: v310.76 - 05/09/2020
+
+   Fixed some bugs in the transfer system
+   Added additional protection to character downloads in invalid cases
+
+v310.68 - 05/08/2020
+
+   Fixed an oversized pain volume on Extinction
+
+v310.67 - 05/08/2020
+
+   Improved anti mesh detection logic
+   Improved climbing pick logic to fix some meshing exploits
+   Multiple level changes including patching up holes, removing floating foliage, setting up appropriate volumes
+   Fixed multiple exploits that allowed you to stack creatures on top of each other
+   Fixed an exploit with Magmasaur
+   Prevented corrupted creatures from basing on Skiffs
+   Queen Bee will no longer spawn bees when encumbered
+   Queen Bee will take 3% of health as damage when a bee of hers is killed
+   Queen Bee will stop spawning bees when at 10% HP
+   Added additional trace checks on lightning aoe to prevent attacking through structures and mesh
+   Fixed multiple server stalls
 
 Current Version: v310.62 (.61 client) - 05/01/2020
 
