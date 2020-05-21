@@ -1,4 +1,14 @@
-Current ARK Official Server Network Servers Version: v310.76
+Current ARK Official Server Network Servers Version: v310.90
+
+Current Version: v310.94 - 05/20/2020
+
+   Added additional protection to GCM, Explorer Notes, and Glitches to address potential exploits
+
+v310.90 - 05/15/2020
+
+   Transfers are now enabled on Genesis and the latest Official Servers
+   Titans cannot be transferred into Genesis
+   Managarmr cannot be ridden on regular Genesis servers (can be ridden on flyer-allowed servers)
 
 Current Version: v310.76 - 05/09/2020
 
