@@ -65,12 +65,6 @@ I have one now that removes fog on all maps WITH the new adjustment the dev's ha
 
 Stay tuned!
 
-
-
-Side note, the big reason why my releases have been running late is because I found a awesome un-official server to play on. It's owned by a good friend of mine an it's the full Ark Cluster with beyond awesome rates, they make Ark even more addicting. If you want a break from officials for any reason, check out his cluster! It's PvP AND PvE locked cluster! Heads up I'm admin over there as well! <3
-
-http://aurorax.me/
-
 Hot of the press! v0.2200 release!
 
 -Added new Ini "New Illegal Ini"
