@@ -1,4 +1,20 @@
-Current ARK Official Server Network Servers Version: v310.90
+Current ARK Official Server Network Servers Version: v310.111
+
+Current Version: v310.111 - 05/26/2020
+
+   Fixed multiple level design bugs related to holes, floating foliage, and volumes.
+   Made some UI improvements to the TEK Grenade Launcher and the Giant Turtle's Breath Attack
+   Additional protection added to glitches on Genesis
+   Fixed some bugs where XP was not being awarded properly when collecting Glitches
+
+v310.94 - 05/20/2020
+
+   Added additional protection to GCM, Explorer Notes, and Glitches to address potential exploits
+
+7:30PDT
+
+   Fixed an over-sized pain volume on Extinction that caused players to die due to mesh detection
+
 
 Current Version: v310.94 - 05/20/2020
 
