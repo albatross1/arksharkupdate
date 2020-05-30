@@ -1,10 +1,32 @@
+5/30/2020
+If you get time please check for this. can't hurt an it's very easy to do. I want to make sure everyone is safe. Thanks @Vorkoz for the heads up on this.
+
+Discord Client Reveals Trojan Malware: Here’s How To Check Yourself Before You Protect Yourself
+
+https://wccftech.com/discord-anarchygrabber-malware-check-removal/
+
+The TL;DR is by navigating to
+%AppData%\Discord\[version]\modules\discord_desktop_core\index.js
+ and opening it with Notepad, you can check and see if there have been any modifications to the file. A clean index.js file will only feature a single line of code as shown below:
+
+module.exports = require('./core.asar');
+
+
+On a side note: still trucking along on the newest ini's coming soon TWO MORE! Then soon after the Ini custom creator. I've been requested by a donator as well to add a user defined FPS count that will modify your ini to that custom setting. So that will be added soon as well!
+
+Stay tuned!
+
+
+
 5/11/2020
 Version 0.2700 Released!
 Updated URL in my application & added one time disclaimer, explaining what happened.
 
 
+
 5/10/2020
 New Discord Link Available --> http://arkshark.club/
+
 
 
 5/9/2020
@@ -22,6 +44,7 @@ Sorry for in trouble this make have caused you. - Deadpool
 
 The person who hacked my account was Incognito#7911 be cautious accepting anything from this user.
 The restore will take some time.
+
 
 
 Update! 5/6
