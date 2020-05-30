@@ -5,9 +5,11 @@ Discord Client Reveals Trojan Malware: Here’s How To Check Yourself Before You
 
 https://wccftech.com/discord-anarchygrabber-malware-check-removal/
 
-The TL;DR is by navigating to
+The TL;DR is by navigating to:
+
 %AppData%\Discord\[version]\modules\discord_desktop_core\index.js
- and opening it with Notepad, you can check and see if there have been any modifications to the file. A clean index.js file will only feature a single line of code as shown below:
+
+and opening it with Notepad, you can check and see if there have been any modifications to the file. A clean index.js file will only feature a single line of code as shown below:
 
 module.exports = require('./core.asar');
 
