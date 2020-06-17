@@ -1,4 +1,95 @@
-Current ARK Official Server Network Servers Version: v310.111
+Current ARK Official Server Network Servers Version: v311.94
+
+Current Version: v311.101 - 06/16/2020
+
+   Fixed multiple start up crashes affecting some EGS clients
+
+v311.100 - 06/16/2020
+
+   Fixed Legacy Servers not showing up when transferring.
+
+v311.99 - 06/16/2020
+
+   Re-implemented Multihome server functionality
+   Resolved some connection and start up issues with EGS clients
+   Improved listing for Unofficial Servers on EGS clients
+
+v311.97 - 06/14/2020
+
+   Improved Unofficial server listing for EGS clients
+   Unofficial hosts should make sure they're installed vc140: https://www.microsoft.com/en-au/download/details.aspx?id=48145
+
+v311.94 - 06/12/2020
+
+   Additional Logging on Official Servers to identify connection and listing issues.
+
+v311.87 - 06/12/2020
+
+   Fixed the 'Kicked by BattlEye' disconnection error
+   Fixed certain server map names not showing on the session filter
+   Fixed eggs and babies being teleported to 0,0 when in stasis
+
+v311.81 - 06/12/2020
+
+   Fixed voice connection remnants after transferring to a different server
+   Fixed language overrides on EGS
+
+v311.79 - 06/11/2020
+
+   Fixed Linux servers not starting up
+   Fixed EGS clients not being able to connect to password protected servers
+
+v311.78 - 06/11/2020
+
+   Disabled bRawSockets as they no longer function with the new game networking code
+   Fixed a client side crash when accessing inventories
+   Fixed Crystal Isles Map showing in all filters
+
+v311.74 - 06/11/2020
+
+   Crystal Isles free map is now available on Steam & EGS
+   ARK is now available on the Epic Game Store (free forever for one week!)
+
+For those of you running dedicated servers, here's some info you need to know:
+
+When running a Crossplay or Epic Game Store server, the VOIP software will be default to use the Vivox, an alternative VOIP plugin. For those using Steam only, you can continue to use Steam VOIP (default) or alternatively opt into Vivox.
+
+Necessary Server Args:
+
+-crossplay (enables Crossplay on Dedicated Server)
+-epiconly (enables Epic Game Store only players to connect to the Dedicated Server)
+-UseVivox (enables Vivox on Steam only servers)
+
+Running a server with mods or without -epiconly or -crossplay will mean that the server will only accept player connections from Steam and not EGS.
+
+   5th Anniversary Event (can be started with -activeevent=birthday)
+
+   Fixed multiple undermesh exploits
+   Increased Ovis corpse harvesting scaling by 4x
+   Fixed a mating range bug
+   Additional server-side transfer logging
+   Whisper (ALT+B) and Yell voice (Shift+B) chat have been added
+
+v310.211 - 06/10/2020
+
+   Added some additional exploit protection to the transfer system
+
+v310.117 - 06/05/2020
+
+- Fixed an incorrect kill volume on Aberration
+- Fixed some incorrect meshes on Aberration
+
+v310.80 - 06/04/2020
+
+   Initiated a one time Mindwipe COOLDOWN reset on Official Servers
+   Corrupted Dinos can no longer be teleported
+   Reduced scaling factor of sheep harvesting health to reduce stalls
+   Set ORP activation timer to 10 seconds on Official PVE servers
+
+v310.112 - 05/31/2020
+
+   Fixed some cases where the login lock could be bypassed
+
 
 Current Version: v310.111 - 05/26/2020
 

@@ -18,7 +18,14 @@ On a side note: still trucking along on the newest ini's coming soon TWO MORE! T
 
 Stay tuned!
 
+6/16/2020
+Well, I was going to release the next version tomorrow. But it's going to have to wait a couple of days. I'm now adding on top of the FOV change and the TWO more ini's I specified in #🎡upcoming-features🎢 and #⚡what-it-can-do multi-client support.
 
+Thanks to @Wingman he tested an at least for now using the manual method with the Epic account still works with the Ini change. Thus I'm adding it to my installer/finder for the ini to look for the local Epic directory.
+
+For those who don't want to wait look in the ?\Epic Games\ARKSurvivalEvolved\Engine\Config folder. The question mark being where ever your Epic Ark game is installed too. Thanks for the continued support, I'll try to get this new update out fast.
+
+Of course those who are @Donators will get it first, I will then release the public release soon after!
 
 5/11/2020
 Version 0.2700 Released!
