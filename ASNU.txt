@@ -1,4 +1,4 @@
-Updated Menu coming, check discord for the image!
+Updated Menu coming, check discord for the image!  
 
 6/16/2020
 Well, I was going to release the next version tomorrow. But it's going to have to wait a couple of days. I'm now adding on top of the FOV change and the TWO more ini's I specified in #🎡upcoming-features🎢 and #⚡what-it-can-do multi-client support.
