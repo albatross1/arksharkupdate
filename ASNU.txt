@@ -1,4 +1,27 @@
-Updated Menu coming, check discord for the image!  
+6/23/2020
+V.3000 Release!
+Wow where to begin, this took me 3 solid days to convert to a multi-client support! Your friends or friends of a friends who are using EPIC now can take advantage of my Ini Program now!
+
+What you need to know.
+
+Added Multiple Fixes Area to tell what fixes you're running.
+Fix Dedicated Storage Boxes on any Ini
+Set FPS on any Ini on the fly!
+Two more hot fixes. (Careful running them all, there a known issue currently I'm trying to work out.)
+4 MORE INI's!
+New NO FOG Default Illegal Plus Ini
+Enhanced NO FOG Plus REMOVE ALL Ini
+Enhanced NO FOG Plus Ini
+New Illegal Remove All NO FOG Ini
+Multi-Client Support ( You specify a client now, you can't run both at the same time with my program.)
+Steam
+EPIC
+Moved Menu's around
+Add FOV for both clients
+
+Known Issues
+
+DO NOT USE ALL THREE FIXES at the same time, or if you do definitely not on huge ini's there's a parsing problem I'm still trying to work out.
 
 6/16/2020
 Well, I was going to release the next version tomorrow. But it's going to have to wait a couple of days. I'm now adding on top of the FOV change and the TWO more ini's I specified in #🎡upcoming-features🎢 and #⚡what-it-can-do multi-client support.
