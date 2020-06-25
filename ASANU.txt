@@ -1,4 +1,41 @@
-Current ARK Official Server Network Servers Version: v311.94
+Current ARK Official Server Network Servers Version: v311.302
+
+Current Version: 06/19/2020
+
+   Fixed an exploit
+   Limited the public teleport setting specifically for Official PvP
+
+v311.209 - 06/18/2020
+
+   Crystal Wyverns can now be transferred between maps
+   EGS Clients can now use the favourite server feature
+   Genesis Geysers no longer restore the food stat
+   Fixed a bug where using the rocket launcher could propel you backwards
+   Scout can no longer pushed tamed dinos
+   Crystal Wyverns can now be cryopoded
+   Fixed multiple mesh holes, collision issues, floating foliage, and incorrect volumes
+   Fixed Tropical Wyvern from regaining health passively
+   Fixed a bug where some Crystal Wyverns could not be tamed properly
+
+v311.101 - 06/16/2020
+
+   Fixed multiple start up crashes affecting some EGS clients
+
+v311.100 - 06/16/2020
+
+   Fixed Legacy Servers not showing up when transferring.
+
+v311.99 - 06/16/2020
+
+   Re-implemented Multihome server functionality
+   Resolved some connection and start up issues with EGS clients
+   Improved listing for Unofficial Servers on EGS clients
+
+v311.97 - 06/14/2020
+
+   Improved Unofficial server listing for EGS clients
+   Unofficial hosts should make sure they're installed vc140: https://www.microsoft.com/en-au/download/details.aspx?id=48145
+
 
 Current Version: v311.101 - 06/16/2020
 
