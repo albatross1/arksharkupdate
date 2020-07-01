@@ -1,4 +1,43 @@
-Current ARK Official Server Network Servers Version: v311.302
+ Current ARK Official Server Network Servers Version: v312.24
+
+Current Version: v312.24 - 07/01/2020
+
+    Fixed some exploits related to ranged weapons and guns.
+
+v312.19 - 06/30/2020
+
+    Fixed multiple level design issues related to holes, volumes, floating foliage, and more.
+    Fixed Dino Leash breaking on restart
+    Fixed a crash related to crafting items with the gamepad
+    Reduced the Prime Jerky crafting cost of Summer Bash Holiday items
+
+v312.14 - 06/29/2020
+
+    Fixed a server hang
+    Fixed a server crash
+
+v312.15 - 06/27/2020
+
+    Reverted file loading change due to it causing memory issues
+
+v312.13 - 06/26/2020
+
+    New command line arg: -PublicIPForEpic=<IPAddress> 
+        If this command line arg is used, this is the public IP that EGS clients will attempt to connect to.
+        If this command line is missing and -Multihome is specified, then EGS clients will attempt to connect to the Multihome IP
+        Note that if you're using Multihome and specify a non-public IP address, then players will not be able to connect to your server using EGS. Make sure to set a public IP address (e.g WAN or external)
+
+v312.9 - 06/25/2020
+
+    Summer Bash 2020 enabled on Official Servers. Unofficial can enable using: -activeevent=Summer
+
+    Fixed multiple level design bugs related to holes, collision, floating foliage, and incorrect volumes.
+    Primal Crystal is now transferable
+    Jump Pad enemy foundation prevention removed
+    Fixed an exploit which allowed players to transfer items into non-downloadable servers
+    Fixed a bug which would cause dinos to get stuck when using the Arctic NE teleport
+    Fixed players being unable to use the bunny-hop dance
+
 
 Current Version: 06/19/2020
 
