@@ -1,4 +1,501 @@
- Current ARK Official Server Network Servers Version: v312.24
+Current ARK Official Server Network Servers Version: v318.9
+
+Current Version:  v318.9 - 11/24/2020
+
+    Turkey Trial is now live until December 8th! Launch your server with -ActiveEvent=Turkeytrial to enjoy the festivities!
+    Fixed a bug where Tamed Megalodons were accidentally applying the Gashed debuff, causing a slow and a bleed, rather than the Gnashed debuff which would only cause a bleed. Additionally, Wild Megalodons will no longer apply the bleed effect (Gnashed) to their targets.
+    Fixed a bug which broke Basilisk IK
+    Fixed a bug where the Mammoth damage debuff (Trumpet) was not working on wild or tamed dinos
+    Fixed multiple level-design related bugs such as holes, floating foliage, incorrect volumes, etc. This includes the floating water volumes around the Crystal Isles floating islands which would cause players to dismount in midair.
+    Fixed a bug which caused the Taming HUD to clear itself after a server restart or relog
+    Fixed a bug which caused Quetz to be affected by small bear traps
+    Fixed a bug which caused the Rock Drake to stop gliding
+    Fixed a bug which caused Large Crop Plots to be fully irrigated when placed
+    Fixed a bug which allowed players to place ocean platforms inside other player structures
+    Fixed a bug which caused Onyc's babies to spawn at the wrong socket location
+    Fixed a bug where HLNA was not correctly colorizable
+    Fixed a bug which allowed Desert Kaiju flock to be taxidermable
+    Fixed a bug which prevented you from being able to "track all" creatures that were tamed within a search filter in the Taming UI HUD.
+    Fixed a bug which caused some foliage on Aberration to be missing collision
+    Fixed a bug which prevented Arthropleuras, Spiders, and Onyc that were in Cryopods from being deployed
+    Fixed a bug which caused Wild Stegos to have colour plating in Single Player
+    Fixed a bug which caused Mantis that were grown from the baby stage to be larger than tamed ones
+    Fixed a bug which made the Chibi Bone Rex smaller than intended
+    Fixed a bug with the Hockey Mask which would cause it to stall players upon selection
+    Fixed a bug which prevented the Stego from gaining experience when killing with Impale
+    Fixed a bug which caused the Bleed Effect to be off center on the Allosaurus and Thylacoleo
+    Fixed a bug which caused non-aggressive Eels to wander in circles
+    Fixed a bug which made it so that the Shoulder Cannon icon was not colourised
+    Fixed an exploit which prevented turrets from shooting at you
+    Fixed an exploit that allowed Cannons and Turrets to be healed using the tent
+
+v317.2 - 11/19/2020
+
+    Fixed a client crash caused by launching the game whilst not being connected to the internet
+
+v317.1 - 11/13/2020
+
+    Fixed a case where transfers could fail
+    Fixed multiple server side crashes
+
+v316.40 - 11/12/2020
+
+    Eliminated server calculation related to replacing structures (no cost to server). Active on Unofficials too.
+    Optimised server calculation for demolishing structures (Official only for now whilst being tested)
+
+v316.31 - 11/10/2020
+
+    Fixed a bug which caused players to be unable to connect or travel between servers
+
+v316.28 - 11/10/2020
+
+    Fixed a bug which caused players to disconnect after defeating bosses
+    Fixed a bug which caused players to timeout or get a Login Lock error when transferring on Official Servers
+
+v316.18 - 11/07/2020
+
+    Mammoth TLC
+    Stego TLC
+    Taming HUD
+    Turret Radius Settings
+    Insects are now breedable
+    Wyverns are now breedable (except Zombie Wyvern)
+    Reduced Giganotosaurus maturation time by approximately 15% (Total growth is around 10~ days)
+    Increased Diplocaulus base health by 33% (from 190 to 250.3)
+    Increased Diplocaulus movement speed when ridden by 25%
+    Added a (slow draining) bleed to Thylacoleo basic attack
+    Reduced depth requirement for Megachelon breeding so that it can be bred on other maps
+    Reduced Megalodon gestation/aging times to match Megaloceros
+    Added a Pack Bonus to Megalodon: Damage Reduction and Damage Increase per pack member within range
+    Added a bleed to Megalodon basic attack
+    Increased Jerboa base weight capacity from 55 to 120 (Matches Bulbdog)
+    Increase Ankylosaurus metal weight reduction by 10% (from total reduction of 75% to 85%)
+    You can now turn when rolling with a Doedicurus (similarly to the Genesis Race Mission)
+    Basilisk now has eyes
+    Element reward from The Island bosses has been increased by 100%
+    Element reward from The Center bosses has been increased by 100%
+    Element reward from Scorched Earth has been increased by 50%
+    Fixed a bug where HLN-A would jitter a lot at low client fps
+    Fixed a bug which allowed you to blow up 2 pieces of C4 without consuming them
+    Fixed the Onyx having the wrong icon
+    Fixed a lot of typos
+    Fixed a shoulder pet offset issue with the Ferox on the Gigantopithecus
+    Fixed a bug on localized/translated Cryopods which prevented it from displaying the correct information
+    Fixed multiple level-design related bugs such as holes, floating foliage, incorrect volumes, etc.
+    Fixed a bug which prevented you from placing Cliff Platform structures in the Genesis Part 1 Ocean Biome
+    Fixed a bug which broke biome specific overrides
+    Fixed a bug which allowed players to fly across the map with certain creatures and grappling hooks
+    Completely disabled the option to set teleporters as Public on Official PvP (including using them).
+    New Dynamic Ini options: HexagonRewardMultiplier (multiplies hex rewards for missions), BabyImprintAmountMultiplier, and BabyCuddleIntervalMultiplier
+    Hotkey for GCM demolished has changed to "G" when using keyboard and mouse
+    Ended Fear Evolved and removed Halloween content
+
+v315.18 - 11/06/2020
+
+    Fixed a server crash
+
+v315.17 - 11/05/2020
+
+    Fixed an issue where player characters were not linking up to tribes correctly. If you have recently transferred to or downloaded your character on a server and it was not placed in it's tribe, please do not create a new tribe. Once this patch is live, you can transfer out and back in again and this should grant you access to your tribe once more.
+
+v315.16 - 11/05/2020
+
+    Fixed multiple server crashes
+
+v315.15 - 11/02/2020
+
+    Fixed a crash that would occur when the player would not be able to authenticate through Cloudflare
+    Additional anti-cheat server-side logging
+
+v315.9 - 10/29/2020
+
+    Increased chance of creatures being a bone or a ghost type
+    Changed scarecrows, pumpkins, gravestones to now give players a random amount between 1 and 5
+    Increased the average frequency of seeing gravestones, scarecrows, and piles by approximately 15%
+    Fixed special map overrides not working on DLC maps, such as TEK Creatures, GEN-X, etc.
+
+v315.4 - 10/23/2020
+
+    Fixed a server side crash
+    Prevented the Dodowyvern and DodoRex from being able to be picked up with a hoverskiff 
+
+v315.2 - 10/23/2020
+
+    Fear Evolved 4 is now available until November 6th! Enable with -ActiveEvent=FearEvolved
+    Crystal Wyvern Fertilized eggs now properly warn players before consuming
+    C4 will no longer float when attached to dinos that have been cryo'd
+    Players can demolish structures quickly in GCM by using Q on keyboard or RightBumper+X on Gamepad/R1 + Square.
+    Fixed a bug where players were unable to ride dinos whilst being grappled.
+    Fixed multiple level-design related bugs such as holes, floating foliage, incorrect volumes, etc.
+    Fixed multiple mesh exploits
+    Fixed a bug which would cause Rock Drake to spin rapidly when climbing walls
+    Fixed a shooting exploit with TEK Tapejara
+    Fixed a bug which allowed Magmasaur to do damage in ORP mode
+    Added colorisation options for Shoulder Cannon
+    Added the TEK Trike to the core game so it can now be transferred
+    Added the Master Controller flag to VR Boss
+
+v314.13 - 10/13/2020
+
+    TEK Grenades when attached to a scout will now instantly explode
+    Further enhancements to the mesh protection system to prevent projectiles and structures from being fired or placed inside the mesh
+
+v314.7 - 10/09/2020
+
+    Fixed a client crash on Aberration
+    Fixed a client crash on Linux
+
+v314.5 - 10/08/2020
+
+    Pacifier (imprint/cuddle) icon will be hidden behind the Extended HUD options (H) unless an imprint is available (then you'll see it) to reduce on screen clutter.
+
+v314.3 - 10/08/2020
+
+     Crystal Isle map optimizations
+     Fixed multiple level-design related bugs such as holes, floating foliage, incorrect volumes, etc.
+     Networking optimizations and security improvements
+     Pacifier (Imprint) Icon only displays above baby dinos when imprinting is NOT at 100%, and will pulse when a baby is ready to be cuddled
+     Additional mesh detection improvements
+     Fixed a bug with Tropeo that allowed it to attack ORP structures and dinos
+    Initial Implementation of the Live Tuning System. More details can be found here.
+
+v313.57 - 10/01/2020
+
+    Fixed a meshing exploit
+    Fixed a turret soaking exploit
+    Dino Leash will no longer prevent creatures from being transported via a TEK Teleporter
+    Fixed a bug that prevented the oil pump structure from being able to be placed on oil wells.
+    Fixed a bug which prevented players from launching the expansion pack maps on Linux
+    Locally run 'getall' commands are now locked behind a server admin check
+    Alliance chat now works with Gamepad
+
+v313.55 - 09/29/2020
+
+    Further optimisations made to the structure stasis code (Official Only)
+    Fixed a bug which would cause spectator mode to stop working
+
+v313.52 - 09/28/2020
+
+    Further optimisations made to the structure stasis code (Official Only)
+    Fixed a crash related to the stasis optimisation code (Official Only)
+    Fixed OSDs and Veins not being destroyed when leaving render distance (they are supposed to be destroyed)
+    Fixed Gas Veins continuing to explode gas balls even when they have a collector attached
+
+v313.49 - 09/27/2020
+
+    Further optimisations made to the structure stasis code (Official Only)
+    Fixed some stasis-related crashes (Official Only)
+
+v313.46 - 09/26/2020
+
+    Fixed server crashes related to stasis optimisation code (Official Only)
+    Additional stasis optimisations (Official Only)
+
+v313.43 - 09/25/2020
+
+    Fixed multiple cases where players or dinos could get stuck in structures via relogging or fast travelling. (Official only - related to the stasis code)
+
+v313.41 - 09/25/2020
+
+    Structure stasis code optimized (Official only for now whilst we continue to investigate impact)
+
+v313.37 - 09/24/2020
+
+    Fixed multiple level-design related bugs such as holes, floating foliage, incorrect volumes, etc.
+    Prevented players from being able to level up tames above the server-specific level clamp
+    Fixed multiple mesh methods
+    Fixed an exploit with the Astrocetus
+    Updated the PC Client Patch Notes URL
+
+v313.35 - 09/19/2020
+
+    Fixed a server crash related to RCON. (Unofficial Only)
+
+v313.33 - 09/18/2020
+
+    Fixed a server crash
+
+v313.30 - 09/17/2020
+
+    Fixed multiple level-design related bugs such as holes, floating foliage, incorrect volumes, etc.
+    Fixed Fence Supports requiring foundational support when trying to snap to each other
+    Fixed an exploit which allowed players to bring tames to Genesis Gauntlet Missions
+    Fixed the DefeatBoss admin command
+    Added additional sockets onto the skiff which auto-turrets can use as targeting options
+    Added some protection to the Tribe UI to prevent players from accidentally leaving their own tribe or kicking themselves
+    Prevented the trough visual from displaying in spectator mode
+    Fixed a bug which allowed you to complete Genesis Gather Missions before hitting all the requirements
+    Fixed a bug which would allow you to build a floating base
+    Fixed a bug which prevented Megachelons from counting towards the platform dino limit
+    Fixed a mesh exploit
+    Fixed a bug which prevented catapults from applying damage when shooting boulders
+
+v313.28 - 09/16/2020
+
+    Fixed multiple server crashes
+
+v313.23 - 09/15/2020
+
+    Fixed a server crash
+
+v313.22 - 09/13/2020
+
+    Fixed multiple exploits related to mounted turrets
+
+v313.19 - 09/10/2020
+
+    Fixed an exploit that caused players to be ignored by auto-turrets
+
+v313.14 - 09/08/2020
+
+    Fixed an exploit that caused players to be ignored by auto-turrets
+
+v313.14 - 09/05/2020
+
+    Fixed a bug which stopped Gacha crystals from providing items upon consumption
+
+v313.10 - 09/04/2020
+
+    Fixed a bug which prevented the TEK Bridge from snapping
+    Increased the TEK Bridge decay timer
+    Fixed a level up animation glitch with the Bear and Megatherium
+    Fixed multiple level design related bugs such as holes, floating foliage, incorrect volumes, etc.
+    Fixed a bug which caused the Trough visual indicator to reset on load in Single Player
+    Fixed an exploit used by malicious players to arbitrarily add pin codes to unpincodeable structures
+    Fixed various broken creature spawns in Genesis Single Player
+    Adjusted the Transfer UI's Server Session list alignment
+    Fixed a bug where downloaded Titans were not saving on servers
+    Fixed an exploit with Crystal Wyverns
+    Fixed an exploit with the Reaper and Basilisk
+    Fixed an exploit with the Deinocyhus
+    Fixed a bug with the TEK Skiff would not update its inventory, causing it to be unable to fly as it assumed it was carrying too many items
+
+v313.7 - 08/31/2020
+
+    Fixed multiple meshing exploits
+
+v313.5 - 08/25/2020
+
+    Doubled harvesting, taming, and XP rates in the core game
+    Transfers and Reaper Pregnancy now enabled on Official Crystal Isles and * (EGS/new) servers
+    Fixed multiple level design issues related to holes, volumes, floating foliage, and more across various maps.
+    Desert Kaiju lightning strike no longer goes through terrain/world geo
+    Fixed a stutter with the TEK Suit on Crystal Isles
+    Reaper Kings in Rockwell Fight are no longer tamable
+    Setname now correctly checks for admin
+    Trough now remembers the state of the Visual Indicator on load of save game
+    Fixed multiple mesh exploits
+
+v312.84 - 08/18/2020
+
+    Fixed a server desync which would cause players to disconnect in certain locations on Crystal Isle
+
+v312.83 - 08/18/2020
+
+    Fixed a client desync which would cause players to disconnect in certain locations on Crystal Isles
+
+v312.82 - 08/18/2020
+
+    Fixed multiple mesh exploits
+    The admin command destroytribestructureslessthan now works correctly on teams that are not part of tribes.
+    Purlovia can no longer burrow if it's being carried by a Skiff beam
+    Gacha Crystals are now applying the item clamp on generated items
+
+v312.80 - 08/14/2020
+
+    Fixed a bug which would have caused characters to accidentally overwrite already existing but dead characters upon transferring in.
+    Fixed a bug which would have caused consumable items to have not been removed from inventories upon use.
+
+v312.74 - 08/10/2020
+
+    Fixed an invulnerability exploit with MEKs
+    Unofficial Servers can now disable family sharing by disabling the following config in GameUserSettings.ini under ServerSettings: AllowSharedConnections=False
+
+v312.72 - 08/05/2020
+
+    Fixed multiple mesh exploits
+
+v312.66 - 08/04/2020
+
+    Fixed multiple mesh exploits
+    Fixed TEK Gauntlets pushing enemy tamed creatures in PVE
+
+v312.65 "QOL/Balance Pass" - 07/30/2020
+
+Creatures
+Basilosaurus
+
+     Increased deep-sea-depth value at which damage taken by approximately 30%
+
+Bloodstalker
+
+    Reduced armour penetration by approximately 35%
+    Reduced durability damage by 50%
+
+Carno
+
+    Added 30% armour penetration to the Left Click attack
+    Added a Bleed effect to the right click attack which does up to 5% of targets health over 10 seconds, cannot be stacked but the timer can be reset.
+
+Carbonemys
+
+    Increased resistance to TEK Turrets by 10%
+
+Dunkleosteus
+
+    Reduced weight of Obsidian in inventory by approximately 75%
+    Reduced weight of metal, stone, crystal, and black pearls by approximately 50%
+    Increased swim speed by approximately 20%
+
+Liopleurodon
+
+    Increased buff timer from 30 minutes to 6 hours
+
+Megachelon
+
+    Reduced Shell Resistance by 30% (from 80% to 50%)
+    Reduced Health Per Level gains by approximately 15%
+
+Paracer
+
+    Reduced Health Per Level gains by approximately 15%
+
+Gasbags
+
+    Can no longer inhale or exhale when being carried by skiff
+    Will no longer push Dinos around in PVE when landing to prevent griefing and exploits
+
+Breeding
+
+     Reduced Mosasaur maturation time (now matches Yutyrannus)
+     Reduced Basilosaurus maturation time (now matches Gacha)
+     Reduced Tusoteuthis maturation time (now matches Yutyrannus)
+     Reduced Plesiosaur maturation time (now matches Gacha)
+     Reduced Compy maturation time (now matches Otter)
+     Reduced Equus maturation time (now matches Procoptodon)
+     Reduced Quetzal maturation time to approximately 5 and a half days
+     Reduced Phiomia maturation time (now matches Ovis)
+     Reduced Ichthyosaurus maturation time (now matches Roll Rat)
+     Reduced Dunkleosteus maturation time (now matches Mammoth)
+     Reduced Jerboa maturation time (now matches Otter)
+     Increased Rhino maturation time (now matches Doedicurus)
+
+Genesis
+
+    Added an additional 15 seconds to all race missions on Xbox and PS4
+    Added Event Emotes to the Hex Store at the cost of 50,000 hexagons
+    Reduced Hexagons rewarded on Mound Over Matter and One Helluva Treasure Hunt by 25% on all difficulties
+    Increased the cost of Gunpowder in the Hex Exchange to 150 hexagons.
+    Increased the cost of Hide in the Hex Exchange to 60 Hexagons
+    Element Shards gained from Genesis Volcano Red Crystals have been reduced by approximately 40%
+    Per Character Hexagon clamp added to configurable ini (Defaults to 2.5m on Official Network, retroactive change). Can be edited on unofficials by changing this variable in GameUserSettings.ini: MaxHexagonsPerCharacter=2500000
+
+Valguero
+
+    Boss Fight timer has increased from 20 minutes to 30 minutes.
+
+General
+
+    Flying creatures will prioritize picking up friendly-creatures rather than dismounting friendly riders
+    Baby Creatures will no longer auto-wander when hatched
+    Mounting a flying creature will no longer instantly cause it to take off
+    Cryopods in a player’s inventory will now charge if a player is sleeping in a TEK Pod.
+    TEK Helm will now provide players with the Gas Mask bonus, protecting them from the Poison Wyvern and Basilisk spit.
+    Tamed Creatures can no longer consume antidote
+    Added multiple item-clamping checks to various areas of loot generation and crafting.
+    Heavy Turret damage increased by 15%
+    TEK Turrets now require double the amount of shards per bullet
+    Metal Ingot stack size has been increased to 300
+    Raw Metal stack size has been increased to 300
+    Spoil time on Lesser Antidote has been increased to 3 days
+    Spoil time on Prime Meat and Prime Fish have doubled
+    HLNA and Chibi Creatures no longer disable the protection against Bees buff.
+    Yell and Whisper can now switch between the following modifier keys on PC: Left Shift, Left Ctrl, and Left Alt.
+    A configurable GameUserSettings.ini which allows server hosts to limit the amount of gateways that can be placed on platform saddles. This  configuration is not retroactive, so applying this change will require some manual administration work to clear up any pre-existing platforms that exceed the limit. MaxGateFrameOnSaddles=2 We’ll be enabling this on our Official PvP Network and setting the limit to 2, on all platforms. Official PvP players will have approximately 30 days to adjust their current existing platforms to remove any that exceed the gateway limit.
+
+v312.57 - 07/22/2020
+
+    Fixed multiple server crashes
+    Cruise Missiles will now be targeted by turrets that are set to Survivor Only
+    Tweaked the Bloodstalker's valid-enemy target HUD color and additional server-side validation to prevent exploits.
+    Fixed a bug with the Bloodstalker that prevented it from harvesting corpses
+
+v312.53 - 07/21/2020
+
+    Fixed multiple mesh exploits
+    Fixed an exploit that allowed you to avoid cryosickness
+    Removed the purple crosshair from Bloodstalker when it has a valid enemy target due to exploit potential.
+    End the Summer Bash event on Official Servers
+
+v312.52 - 07/17/2020
+
+    Fixed a shooting exploit
+    Fixed multiple mesh exploits
+    Added additional settings to the dynamic config
+    Fixed some colorization issues with the Crystal Wyverns
+
+v312.47 - 07/14/2020
+
+    Fixed multiple server crashes
+    Fixed multiple undermesh exploits
+    Fixed an exploit to block turret fire
+    Fixed Saddles not respecting the armor clamp when releasing them from cryopods
+    Fixed EGS clients not being able to rejoin full servers without relaunching the application
+    Added multiple missing sound effects
+    Added a limit to the number of flex pipes that can be placed within an area
+
+v312.43 - 07/12/2020
+
+    Fixed some client crashes specific to mods
+
+v312.40 - 07/10/2020
+
+    Fixed a server crash
+    Improved shooting accuracy on lower fps servers against moving targets
+    Fixed some client crashes specific to mods
+
+v312.35 - 07/09/2020
+
+    Fixed an exploit related to the Railgun
+    Fixed an exploit related to Shoulder Cannon
+    MEKs can now harvest corpses with their swords
+    Reduced TEK Generator enemy foundation check radius in PvE
+    Multiple level design fixes related to holes, volumes, floating foliage, and collision.
+    Rollrat passengers are no longer killed when the Rollrat rolls
+    Begin 'Mating' has now been moved back to the standard tick (should eliminate the delay in creatures starting to mate)
+    TEK Sensor settings should not restart after loading a saved game
+    Crystal Wyvern cloning costs have been rebalanced
+    Removed some unusable items from the Mission Loot Tables
+    Added TEK Trike and Ice Golem to the recoverable cryo array so that they can be cryo'd and used on Genesis specifically
+    Additional Hexagon Loot Crate protection to prevent them from being unopened upon purchase
+    TEK Gloves now work on Genesis
+    Fixed some cases where the Rock Drake was able to shoot at turrets but not be targeted itself
+    Megalechon dermis now works on the Large Taxidermy Base
+    HLNA skin will now respect the 'disable default survivor item' options in the client
+    Added `BabyImprintAmountMultiplier` as an additional game.ini config for globally tuning imprinting.
+        Multiplier applied to the percentage each imprints provide. For example, if an imprint usually give 8%, setting this multiplier to 0.5 means they would now give 4% each. While setting it to 2.0 means they would now give 16% each, etc. This multiplier is global, meaning it will affect the imprinting progression of every species
+    Further tweaks to logic used in shooting desync exploit fix
+    Fixed another bug that would have prevented data from being written to the cloud when transferring characters (Official Only).
+    Prevented unclaimed dinos from breeding
+    Prevented baby dinos from auto-harvesting
+    Fixed element pool not restoring element for TEK equipment
+
+v312.32 - 07/07/2020
+
+    Improved logic used in our shooting desync exploit fix from the previous patch
+    Fixed a bug which would have prevented data from being written to the cloud when transferring characters (Official Only).
+
+v312.29 - 07/05/2020
+
+    Fixed a shooting desync exploit
+    Fixed multiple server crashes
+
+v312.27 - 07/02/2020
+
+    Fixed multiple level design issues related to holes, volumes, floating foliage, and more.
+    Fixed multiple exploits related to Genesis Mission Weapons
+    Fixed a bug that allowed you to purchase unopened loot crates
+
 
 Current Version: v312.24 - 07/01/2020
 
