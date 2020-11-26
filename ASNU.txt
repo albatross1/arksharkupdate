@@ -1,9 +1,9 @@
 11/26/2020
-Hello everyone Im sorry Ive been MIA for a while now, I’ve had a lot of IRL stuff going on. For everyone in the US Happy Thanksgiving! With this horrible COVID19 year coming to an end I hope everyone is staying safe! With plenty of bugs fixes and enhancements coming to this project, I want to advise I will be working with another dev soon! 
+Hello everyone Im sorry Ive been MIA for a while now Ive had a lot of IRL stuff going on. For everyone in the US Happy Thanksgiving! With this horrible COVID19 year coming to an end I hope everyone is staying safe! With plenty of bugs fixes and enhancements coming to this project, I want to advise I will be working with another dev soon! 
 
 Combining forces with @Olivier project creator of Ark-Automated! Found here! https://github.com/ark-automated/Ark-Automated I think his design will fit my project much better. Hoping Ill learn a lot in the process. If you want to learn more about his project visit his discord here https://discord.gg/3uhQp7R 
 
-As this month will be slow to get going, in December I have a lot of time off and will be refocusing my efforts to re-build this application. I hoping to have a better platform to rate inis, define a create custom ini’s to share via my generator as well, pull your favorite Ark players ini’s from a catalog.
+As this month will be slow to get going, in December I have a lot of time off and will be refocusing my efforts to re-build this application. I hoping to have a better platform to rate inis, define a create custom inis to share via my generator as well pull your favorite Ark players inis from a catalog.
 
 Ill keep you posted on the progress and hopefully will have a working prototype soon! Thanks for everyone support on my project over the years! I love this community and everyone in it!
 
