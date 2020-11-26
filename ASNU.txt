@@ -1,3 +1,15 @@
+11/26/2020
+Hello @everyone I’m sorry I’ve been MIA for a while now, I’ve had a lot of IRL stuff going on. For everyone in the US – Happy Thanksgiving! :turkey:  With this horrible COVID19 year coming to an end I hope everyone is staying safe! With plenty of bugs fixes and enhancements coming to this project, I want to advise I will be working with another dev soon! 
+
+Combining forces with @Olivier project creator of Ark-Automated! :pikachuSurprise: Found here! https://github.com/ark-automated/Ark-Automated I think his design will fit my project much better. Hoping I’ll learn a lot in the process. If you want to learn more about his project visit his discord here https://discord.gg/3uhQp7R 
+
+As this month will be slow to get going, in December I have a lot of time off and will be refocusing my efforts to re-build this application. I hoping to have a better platform to rate ini’s, define a create custom ini’s to share via my generator as well, pull your favorite Ark players ini’s from a catalog.
+
+I’ll keep you posted on the progress and hopefully will have a working prototype soon! Thanks for everyone support on my project over the years! I love this community and everyone in it! :heart: 
+
+Note: If you've already donated, as per protocol you will be getting updates first! As well no further donation will be needed!
+
+
 6/23/2020
 V.3000 Release!
 Wow where to begin, this took me 3 solid days to convert to a multi-client support! Your friends or friends of a friends who are using EPIC now can take advantage of my Ini Program now!
