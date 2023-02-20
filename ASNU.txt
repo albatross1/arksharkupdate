@@ -1,3 +1,80 @@
+Vera/The_Deadpool_XO — 01/23/2023 5:52 PM
+@everyone It happened. They've patched the ability to change your INI. Which to me is surprising. There's still a lot of unknowns but for the time being, yes sadly this application is no longer working. When/If I hear how or learn where it's referencing the visual, I'll put out a hot fix to get this application working again. I will make an effort to find a "grey area" work around that's not ban able. If you or anyone else knows or learns the work around please let me know ASAP! Thanks again! Deadpool!
+
+Vera/The_Deadpool_XO — 01/23/2023 10:05 PM
+@everyone I have a possible fix working... The ini is changing but the lines have changed on top as well how to define each line as well. Not to mentioned I currently have it look at a different file all together. Will be deploying a hotfix ASAP!
+Vera/The_Deadpool_XO — 01/28/2023 11:20 PM
+Updates coming along all anchors fixed. 
+
+Vera/The_Deadpool_XO — 01/30/2023 10:30 PM
+More updates ... almost done...
+
+Vera/The_Deadpool_XO — 01/31/2023 12:09 AM
+@everyone (Getting closer to release.)
+
+(Currently) Changelog v0.3100 Beta
+Added Directory Control. (You can pop up the directory of the client you're using.)
+Added Convert your Old Ini to New Ini.
+Added Ini Injection. (Auto Inject any Ini to replace the ini currently being used from your own collection.)
+Added new "Extra" Button for Dododex. (Replace Crumblecorn)
+Added a fix to the trial end. This is to fix UCID when/if it doesn't show up. (No need for ToolKit)
+Added auto-conversion of current owners and their paths no re-config needed.
+
+Fixed the ini location to look at the new Ini location.
+Fixed switching between clients, you no longer "Need to be slow when switching." 
+Fixed no longer prompting to kill ark when switching Ini. (Because killing the game outright, locks you from being logged back into the server for 5min)
+Fixed the snapshot folder for Steam.
+Fixed name Scheme for the "New Enhanced No Fog Plus" will now show the known Ini running.
+Fixed direct connection issues.
+Fixed the issue with EPIC Client not launching.
+
+Updated wording literally everywhere.
+Updated the Current FOV to now be ANY FOV of your choosing, but if you use the slider there's still a limit if you use it.
+Updated Global Font File location so it no longer pull from the private repo. 
+Vera/The_Deadpool_XO — 01/31/2023 10:47 PM
+Transparent tops will be a premium feature.
+Vera/The_Deadpool_XO — 02/03/2023 6:23 PM
+@everyone I'm very close to being done. Sorry to everyone waiting on this. I have a few more things to fix, and the full release will be soon. I thought I would have today but after have my alpha release be tested it's breaking in weird spots. I've found the fix, and applying them now. Should be ready by hopefully tomorrow or Sunday. Thanks everyone for your patience.
+
+Vera/The_Deadpool_XO — 02/16/2023 8:02 PM
+Attention @everyone! Exciting news! Donators now have the exclusive first preview of our latest upgrade, and let me tell you, it's a game-changer! Well visually 🙂 But don't worry, this weekend it will be available to everyone! Are you ready for the full changelog? Here it is:
+
+I've added Directory Control, so you can easily pop up the directory of the client you're using.
+You can now Convert your Old Ini to New Ini with just a click!
+Injecting Ini has never been easier with our new Ini Injection feature, which automatically replaces the ini you're currently using with one from your own collection.
+I've added a new "Extra" Button for Dododex, replacing Crumblecorn.
+Fixed the trial end issue with UCID not showing up (no need for ToolKit).
+Your current owners and paths will be auto-converted with no re-configuration needed.
+Say goodbye to your transparent top with our new Remove at Will feature.
+Our new Paranoid Mode Checkbox will kill Ark Shark after running the game immediately before it can be scanned (although this is not needed).
+We have a new exit strategy for when you select to change ini while the game is still active.
+I've adjusted the wording on the global font installer for a better user experience.
+
+ Of course, I've also fixed some issues, including:
+ The ini location has been fixed to look at the new Ini location.
+ You no longer have to be slow when switching between clients.
+ There's no more prompting to kill ark when switching Ini (because killing the game outright locks you from being logged back into the server for 5min).
+ I've fixed the snapshot folder for Steam.
+ The name scheme for the "New Enhanced No Fog Plus" will now show the known Ini running.
+ I've resolved the direct connection issues.
+ The issue with EPIC Client not launching is fixed.
+ Running the game when an application has been defined that the user hasn't installed will bypass the stupidity check.
+ Defined FPS needs to be added to the line if the line doesn't exist.
+ Defined FPS needs to be updated as it's not parsed correctly.
+ Running the checkboxes too quickly will no longer break the application's memory.
+ I've fixed issues with the "New Enhanced NO FOG Plus" using the naming scheme of "EnhancedNFPRemoveAll."
+
+And that's not all! I've updated the wording literally everywhere for a more exciting and user-friendly experience.
+The Current FOV can now be ANY FOV of your choosing, but if you use the slider, there's still a limit if you use it.
+The Global Font File location has been updated so it no longer pulls from the private repo.
+
+But wait, there's more to come! Stay tuned for our next updates, including:
+I've will make each hotkey its own defined loop so they can all be run at their own time.
+I've will update both "Helps" to help people find the EPIC location of Ini for manual finds.
+The Global Font Installer will be updated with more aligned fonts found here: https://www.youtube.com/watch
+
+:3867_deadpool_annoyed:  Be on the look out! Coming soon! ❤️ DP :dplove~1:
+
 11/26/2020
 Hello everyone Im sorry Ive been MIA for a while now Ive had a lot of IRL stuff going on. For everyone in the US Happy Thanksgiving! With this horrible COVID19 year coming to an end I hope everyone is staying safe! With plenty of bugs fixes and enhancements coming to this project, I want to advise I will be working with another dev soon! 
 
