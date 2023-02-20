@@ -1,15 +1,15 @@
-Vera/The_Deadpool_XO — 01/23/2023 5:52 PM
+Vera/The_Deadpool_XO 01/23/2023 5:52 PM
 @everyone It happened. They've patched the ability to change your INI. Which to me is surprising. There's still a lot of unknowns but for the time being, yes sadly this application is no longer working. When/If I hear how or learn where it's referencing the visual, I'll put out a hot fix to get this application working again. I will make an effort to find a "grey area" work around that's not ban able. If you or anyone else knows or learns the work around please let me know ASAP! Thanks again! Deadpool!
 
-Vera/The_Deadpool_XO — 01/23/2023 10:05 PM
+Vera/The_Deadpool_XO 01/23/2023 10:05 PM
 @everyone I have a possible fix working... The ini is changing but the lines have changed on top as well how to define each line as well. Not to mentioned I currently have it look at a different file all together. Will be deploying a hotfix ASAP!
-Vera/The_Deadpool_XO — 01/28/2023 11:20 PM
+Vera/The_Deadpool_XO 01/28/2023 11:20 PM
 Updates coming along all anchors fixed. 
 
-Vera/The_Deadpool_XO — 01/30/2023 10:30 PM
+Vera/The_Deadpool_XO 01/30/2023 10:30 PM
 More updates ... almost done...
 
-Vera/The_Deadpool_XO — 01/31/2023 12:09 AM
+Vera/The_Deadpool_XO 01/31/2023 12:09 AM
 @everyone (Getting closer to release.)
 
 (Currently) Changelog v0.3100 Beta
@@ -31,12 +31,12 @@ Fixed the issue with EPIC Client not launching.
 Updated wording literally everywhere.
 Updated the Current FOV to now be ANY FOV of your choosing, but if you use the slider there's still a limit if you use it.
 Updated Global Font File location so it no longer pull from the private repo. 
-Vera/The_Deadpool_XO — 01/31/2023 10:47 PM
+Vera/The_Deadpool_XO 01/31/2023 10:47 PM
 Transparent tops will be a premium feature.
-Vera/The_Deadpool_XO — 02/03/2023 6:23 PM
+Vera/The_Deadpool_XO 02/03/2023 6:23 PM
 @everyone I'm very close to being done. Sorry to everyone waiting on this. I have a few more things to fix, and the full release will be soon. I thought I would have today but after have my alpha release be tested it's breaking in weird spots. I've found the fix, and applying them now. Should be ready by hopefully tomorrow or Sunday. Thanks everyone for your patience.
 
-Vera/The_Deadpool_XO — 02/16/2023 8:02 PM
+Vera/The_Deadpool_XO 02/16/2023 8:02 PM
 Attention @everyone! Exciting news! Donators now have the exclusive first preview of our latest upgrade, and let me tell you, it's a game-changer! Well visually 🙂 But don't worry, this weekend it will be available to everyone! Are you ready for the full changelog? Here it is:
 
 I've added Directory Control, so you can easily pop up the directory of the client you're using.
