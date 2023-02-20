@@ -1,4 +1,1112 @@
-Current ARK Official Server Network Servers Version: v318.9
+ v356.12 - 02/20/2023 - Minor version for servers
+
+    Fixed a crash
+    Fixed an exploit
+
+v356.11 - 02/10/2023 - Minor version for servers
+
+    Dynamic config colorsets
+        Set event colorset from dynamic config using:
+            ActiveEventColors=<name, e.g. "FearEvolved">
+        Additional option added "custom" allows for a custom colorset to be set up directly from dynamic config.
+        If using ActiveEventColors=custom then the colorset can be defined with:
+            DynamicColorset=<comma-separated list of color names>
+                e.g DynamicColorset=Red,Magenta,DeepPink,Lavender
+            The color names must be -exact- accounting for special characters and spaces. "DynamicColorset" will only be used if using ActiveEventColors=custom
+        Updated Vday colorset
+            DarkLavender,DarkMagenta,Dino Dark Purple,Dino Light Red,DeepPink,Dark Red,LemonLime,Red,ActualBlack
+    Fixed a couple issues with tek teleporters not functioning after coming into contact with water
+    Fixed a crash
+
+v356.9 - 02/07/2023 - Minor version for servers
+
+    Fixed an issue joining prim+ servers
+
+v356.8 - 02/06/2023 - Minor version for servers
+
+    Fixed an exploit that affected the player counts on Official Servers
+
+v356.5 - 01/31/2023 - Minor version for servers
+
+    Fixed an exploit
+
+v355.14 - 01/26/2023 - Minor version for servers
+
+    Improvements to chat filter behavior
+    The servers can now hot-reload chat filter lists by using ChatFilterVersion=. The value only needs to change to trigger the lists to be redownloaded
+
+v356.3 (356.1 client) - 01/23/2023 - Major version for servers and clients
+
+    Offensive Text Filter - Added an offensive text filter that we will continue to update in order to address attempts at bypassing the filter. Our system scans for the usage of numbers and other ways to replace words quite effectively and we expect to make this more robust as we move forward
+        GameUserSettings.ini [ServerSettings] bFilterTribeNames=True // Filters out tribe names based on the badwords/goodwords list.
+        bFilterCharacterNames=True // Filters out character names based on the bad words/good words list.
+        bFilterChat=true // Filters out character names based on the bad word/good words list
+        BadWordListURL="URL GOES HERE" // for hosting your own bad words list BadWordWhiteListURL="URLGOESHERE" // for hosting your own good words list
+    Disabled unintended client-side visual configs
+    Fix the mouse cursor lock experienced when trying to access a structure that you do not have rank permissions for in RTS mode
+    Fixed being able to select Access inventory from radial wheel on controller
+    perf adjustment: Rate limit world buff ticks
+    Adjust transfer all cooldown to 2 seconds
+    Fixed a crash
+    Fixed multiple exploits
+
+v355.16 - 01/18/2023 - Minor version for servers
+
+    Carcha will now drop gigant hearts
+    Fixed multiple exploits
+
+v355.14 - 01/11/2023 - Minor version for servers
+
+    Fixed multiple exploits
+    Exo mek structure pickup now respects tribe permissions
+
+v355.13 - 01/10/2023 - Minor version for servers
+
+    Fixed multiple exploits
+    Fixed the Random Chibi Engram in the Refining Forge not saving on server restart
+
+v355.12 - 01/03/2023 - Minor version for servers
+
+    Fixed multiple exploits
+
+v355.9 - 12/23/2022 - Minor version for servers
+
+    Fixed multiple exploits
+
+v355.7 - 12/23/2022 - Minor version for servers
+
+    Fixed an issue with ConfigOverrideSupplyCrateItems being non-operational on unofficial servers
+
+v355.6 (355.5 client) - 12/21/2022 - Minor version for servers and clients
+
+    The recently added Helena and Rockwell explorer note voiceovers are now louder and should respect the NPC volume setting
+    Recently added creature dossiers should now fully unlock properly
+    New years can be set by unofficials earlier to account for all time zones.
+    The earliest value that can be set is 1672480800
+    Fixed several exploits
+
+v355.4 (client)  - 12/16/2022 - Minor version for clients
+
+    Fixed dinos teleporting to the incorrect location after SE boss fight in Single Player (Teleport location: -302537 -44644 53371)
+
+v355.3  - 12/14/2022 - Major version for servers and clients
+
+    Winter Wonderland 6 is live! This event can be manually activated with the server arg parameter: -ActiveEvent=WinterWonderland
+    Added Scorched Earth ascension
+    Added prologues and epilogues to all story maps
+    Added Helena and Rockwell Explorer Note VO
+    Added Aberration Rockwell boss VO
+    Added launch config ?EventColorsChanceOverride=<num> (Takes a value between 0 and 1.      1 = 100% chance for color override)
+    Fixed an exploit
+    Support for ARK on Stadia has been terminated
+
+v354.6  - 12/05/2022 - Minor version for servers
+
+    Fixed multiple exploits
+
+v354.4  - 11/22/2022 - Major version for servers and clients
+
+    Turkey Trial 6 is live!  This event can be manually activated with the server arg parameter: -ActiveEvent=TurkeyTrial
+    Smelting chibis requires the placement of a new refining forge
+    Crafting new chibis requires the placement of a new cooking pot
+    Wishbones are no longer able to be transferred.  Attempting to transfer wishbones will result in them being deleted
+    Fixed Carcha losing taming affinity on SP restart
+    Added FearEvovled cosmetics to Hexagon Exchange
+    Added purchasable random chibis at higher tiers in Hexagon Exchange
+    Fixed an exploit 
+
+v353.1 (353.2 client)  - 11/10/2022 - Minor version for clients
+
+    Fixed Carcha disappearing on Genesis
+    Fixed a crash
+
+v353.1  - 11/09/2022 - Major version for servers and clients
+
+    Fixed a crash
+    Fixed decompose timer on fertilized Carcha eggs
+    Fixed Carcha taxidermy poses
+
+v352.6  - 11/06/2022 - Major version for servers
+
+    Added the Carcharodontosaurus to the game!
+    Fixed multiple exploits
+    Added icons to Fjordhawk death bag retrieval cooldown
+
+v351.6  - 10/20/2022 - Minor version for servers
+
+    Changed scarecrows, pumpkins, gravestones to now give players a random amount between 1 and 10 (previously was between 1 and 5)
+    Fixed Fjordhawk Death Inventory cooldown timer not calculating correctly when transferring servers
+    Updated Fjordhawk Death Inventory string to correctly display "Death Inventory"
+    Applied a one-time cooldown reset for the Fjordhawk Death Inventory Cooldown
+
+v351.5  - 10/19/2022 - Major version for servers
+
+    The Fear Evolved Event event will run from October 19th 1PM Pacific to November 2nd 1PM Pacific.  See this thread for details:  Unofficial server owners can activate the event by adding -ActiveEvent=FearEvolved to the launch arguments
+    Fjordhawk balance pass
+        Reduction to Fjordhawk flight speed when picking up death lootbags
+        Increase time before hawk becomes invisible to 20 seconds
+        One hour cooldown added on retrieval of player's inventory when killed. This can be overridden with launch argument - -MinimumTimeBetweenInventoryRetrieval=<TimeInSeconds>
+        Reduced base health and health per level gained on the Fjordhawk by approximately 40%
+        Added 2x damage multiplier from guns and projectiles
+        Visual improvements will be added in the next major version for client display of the cooldown time
+    Fixed multiple crashes
+    Fixed several Exploits
+
+v350.5 (350.4 client) - 10/05/2022 - Major version for servers
+
+    Fixed multiple exploits
+
+v349.28 - 09/23/2022 - Minor version for servers
+
+    Iterated on an invulnerability exploit
+
+v349.27 - 09/21/2022 - Minor version for servers
+
+    Fixed a crash
+    Fixed an exploit
+    Fixed an issue that would cause unofficial servers to crash when using certain mods. The affected mods should work now and unofficials can opt-in to the more secure item/dino spawning rules by adding -UseSecureSpawnRules to the server launch arguments. Using this launch argument may render certain mods non-functioning!!!
+
+v349.25 - 09/19/2022 - Minor version for servers
+
+    Fixed an exploit
+
+v349.22 - 09/07/2022 - Minor version for servers
+
+    Further iteration on authentication exploit
+
+v349.19 - 09/07/2022 - Minor version for servers
+
+    Further iteration on authentication exploit
+
+v349.16 - 09/06/2022 - Minor version for servers
+
+    Further iteration on an authentication exploit
+    Fixed a crash when using RCON
+
+v349.14 - 09/06/2022 - Minor version for clients
+
+    Updated client save version to match servers
+
+v349.13 - 09/03/2022 - Minor version for servers
+
+    Iterated on an authentication exploit
+
+v349.10 - 09/02/2022 - Minor version for servers
+
+    Fixed an exploit
+    Fixed a connection issue
+    Iterated on an authentication exploit
+    New server launch argument: -imprintlimit=100 (this caps imprints at 100%); though we recommend going 1% higher to catch floating point errors especially when working with custom imprinting rates! Note, any creature exceeding this cap will be destroyed.
+
+v349.8 - 09/02/2022 - Minor version for servers
+
+    PAX Party is now active with a burst of colors, 3X Taming, Harvesting, XP, Hexagons, and Breeding! You can enable the special colours with ActiveEvent=PAX
+    Iterated on an authentication exploit
+    Fixed a god mode exploit
+
+v349.5 - 08/31/2022 - Minor version for servers
+
+     Fixed an issue related to server capping on Official servers
+
+v349.3 - 08/31/2022 - Minor version for servers
+
+    Fixed an exploit
+    Fixed a crash
+
+v349.2 - 08/24/2022 - Minor version for servers
+
+    Fixed an exploit
+
+v349.1 - 08/24/2022 - Major version
+
+    Fixed an exploit
+    Fixed some map issues on Fjordur
+    Fixed issue with getting dismounted from Space Dolphin randomly
+    Fixed a server crash with saves over 4gb
+    Fixed Basilisk not being able to tame in Simplified Chinese
+    Added server config to disable creating folders in Tribute Inventories. (Now disabled on Official servers) 
+    -DisableCustomFoldersInTributeInventories
+    Added server config to temporarily disable the Tek Railgun on PVP servers. (Now disabled on Official PVP servers) 
+    -DisableRailgunPVP
+
+v348.10 - 08/16/2022 - Minor version for servers
+
+    Fixed an exploit
+    Fixed a crash
+
+v348.7 - 08/03/2022 - Minor version for servers
+
+    Fixed an exploit
+    Mutagen spawns no longer save on server restart
+    Disabled spawning on canoes while we investigate a related crash
+
+v348.6 - 07/29/2022 - Minor version for servers
+
+    Fixed a crash
+
+v348.5 - 07/26/2022 - Minor version for servers
+
+    Fixed an exploit
+    Fixed a crash
+
+v348.4 - 07/21/2022 - Minor version for servers
+
+    Fixed an exploit
+
+v348.2 (348.3 client)-07/18/2022 - Minor version for clients
+
+    Fixed a stall relating to Stryder
+    Fixed switching ammo type on TEK bow
+    Fixed accessing map marker UI with a controller
+
+
+v348.2 (348.1 client)-07/15/2022 - Major version for servers and clients
+
+    Fjordur map fixes including: auto TP zone, oil vein node fixes, lava damage volume, kill volume, wild spawn fixes, water volume in poison wyvern trench, fixes to trees to allow harvesting, fixed holes
+    Added further wild creature spawns to Asgard biome on Fjordur
+    Decreased alpha dino spawns on Fjordur
+    Increased runestone reward droprate by 40%.
+    Fixed an exploit
+    Fixed polar bear crash
+    Fixed a bug related to player character becoming encumbered whilst fast travelling with Fjordhawk
+    Fixed Fjordhawk not returning to player when leashed
+    Fixed realm teleporting after boss fight on Fjordur
+    Fixed reloading while mounted with shoulder pet equipped
+    Redistributed element shard/black pearl nodes on Fjordur. This includes a 70% nerf to the amount of nodes in the Throat of Flames and redistribution of those to the following areas:
+
+Element Shards added to:
+
+    Fire Wyvern Trench
+    Molten Caverns
+    Mount Doom Caverns
+    Balheimr
+
+Black Pearls added to:
+
+    Poison Wyvern Trench
+    Lightning Wyvern Trench
+
+v347.1- 06/30/2022 - Major version for servers and clients
+
+    Biome Teleport is now enabled by default in Single Player
+    Multiple map fixes for Fjordur
+    Fixed an issue that caused the XP bar to display incorrectly
+
+v346.30 - 06/28/2022 - Minor version for servers
+
+    Fixed multiple exploits
+
+v346.16 - 06/23/2022 - Minor version for servers and clients
+
+    Fixed Fjordhawk not eating tamed corpses on PvE
+    Fixed cases where Desmodus would gain too much movement speed
+    Desmodus speed can now be leveled up with -AllowFlyerSpeedLeveling
+    Fixed an issue where minibosses would sometimes not drop a relic
+
+v346.14 - 06/21/2022 - Minor version for servers and clients
+
+    Added element reward to mini-bosses on fjordur
+    Added other map learnable engrams to Fjordur (now matches Lost Island)
+    Fixed several map issues on Fjordur
+    Fixed gamepad issues while mounted
+    Fixed Desmodus issues while using Simplified Chinese
+    Fixed an exploit
+    Fixed a crash
+
+v346.12 - 06/13/2022 - Minor version for servers
+
+     Fixed a cooldown on defecation
+    Server administrators can enable and disable the Fjordur biome teleport in GameUserSettings.ini, under [ServerSettings] with the server config option:
+    UseFjordurTraversalBuff=true/false
+
+v346.11 - 06/12/2022 - Major version for servers and clients
+
+    Fjordur is Live!  Explore a cold and hostile Norse-inspired archipelago in our newest official community map, featuring four new creatures for you to collect!
+    To address an unintended change, the turret exclusion list option is now applicable to wild dinos only
+    The TEK Helmet multi-use wheel is now accessible while mounted
+    Fixed an issue that caused the Lost Island Artifact of the Massive/Devious respawn incorrectly
+    Fixed an exploit
+    Fixed multiple map holes
+
+v345.39 - 06/03/2022 - Minor version for servers
+
+    Fixed an issue with event creature colors not spawning 
+
+v345.38 - 06/02/2022 - Minor version for servers
+
+    Happy 7 years of ARK! We are so grateful for our amazing community and all of your support. Looking forward to what the coming years hold in store! Help us celebrate with a hand-picked rainbow-colored event featuring a bunch of colors loved by you & 2x all rates! Ends Mon.  Use the server parameter  -activeevent=ark7th to begin the event
+    Fixed an exploit
+
+v345.37 - 05/25/2022 - Minor version for servers
+
+    Fixed an exploit
+
+v345.35 - 05/19/2022 - Minor version for servers
+
+    Fixed an issue with shotguns not causing damage
+    Fixed an exploit
+
+v345.33 - 05/18/2022 - Minor version for servers
+
+    Fixed multiple exploits with the TEK Railgun
+
+v345.31 - 05/16/2022 - Minor version for servers
+
+    Fixed a crash with the TEK Railgun
+    Reenabled the TEK Railgun's ability to shoot through geo/meshes on Official PvP
+    Fixed an exploit with the TEK Railgun
+    Fixed a bug with the TEK Railgun's range
+
+v345.28 - 05/16/2022 - Minor version for servers
+
+    Further iteration on the TEK Railgun (see previous patch note)
+
+v345.25 - 05/13/2022 - Minor version for servers
+
+    Temporarily disabled the TEK Railgun's ability to shoot through geo/meshes on Official PvP whilst we investigate exploits related to the gun. Unofficials can enable using -PVPDisablePenetratingHits
+
+v345.23- 05/04/2022 - Minor version for servers
+
+    Fixed an issue that prevented Space Dolphin lasers from causing damage in specific missions
+
+v345.22- 04/29/2022 - Minor version for servers
+
+Astrodelphis Balance Pass
+
+    Roll damage to players and tames reduced by 20%
+    Laser damage to players reduced by 20%
+    Increased EMP/Chaff radius by 33%
+    Reduced EMP/Chaff cooldown from 5 to 4 seconds
+    Prevented laser damage scaling versus structures
+    Lasers no longer damage turrets
+    Turning on saddle/Starfighter mode now requires saddle engram
+
+Miscellaneous
+
+    Fixed various exploits
+
+v345.19 - 04/15/2022 - Minor version for servers
+
+    Fixed the missing Eggcellent Adventure event wild creature colors (59, 67, 68, 76 ,84, 94, 95 & 100)
+
+v345.18 - 04/14/2022 - Minor version for servers
+
+    Fixed an exploit
+
+v345.17 - 04/13/2022 - Minor version for servers
+
+    Fixed an exploit
+
+v345.16 - 04/13/2022 - Minor version for servers
+
+    Fixed an exploit
+
+v345.6 - 04/10/2022 - Major version for clients and servers
+
+    Eggcellent Adventure returns until April 25th! Follow the trails of wild Bunny Dodo's and Bunny Oviraptor's to gather Bunny Eggs for special event loot.  Use the server parameter -ActiveEvent=Easter to begin the event.
+    For the duration of Egccellent Adventure, we will be disabling the world buffs from Baby Boon & Maewing Poach on Genesis Part 2 on the Official Network. In the past, we've adjusted for the impact events have had on the rates by tweaking the bonuses that we use during the holidays, however, those tweaks lead to unfavorable circumstances on maps that aren't Genesis Part 2, so going forward during breeding events, we'll be disabling these mission buffs specifically as not to affect the bonuses on other maps.
+
+v344.26 - 04/10/2022 - Minor version for  servers
+
+    Fixed an exploit
+
+v344.21 - 04/08/2022 - Minor version for  servers
+
+    Fixed multiple exploits
+
+v344.12 - 04/07/2022 - Minor version for  servers
+
+    Fixed an exploit
+    Refactored the way creatures consume food upon exiting stasis resulting in a significant performance optimization
+
+v344.8 - 03/10/2022 - Minor version for clients and servers
+
+    Fixed multiple exploits
+    Fixed a crash
+
+v344.3 - 03/03/2022 - Major version for clients and servers
+
+    We know you folks enjoy your event cosmetics so as we enter into our last year of events on ARK 1, we will be adding the associated cosmetics to the Hexagon Store once each event ends. Speaking of - we've added the Love Evolved cosmetics to Hex store with today's patch!
+    All of the event content will be added to the PC game at the end of the year's cycle of events so they can be opted into for our PC unofficial server owners and players. Our console players will be able to grab all event cosmetics from the Hex store!
+    Over 70 fixes related to mesh holes and foliage across all maps 
+    Fixed an issue where King Dinopithecus trophies disappeared on session restart
+    Disabled various boss trophies from being able to be transferred to prevent them from disappearing
+    Fixed a bug with fishing from a canoe
+    Fixed an exploit
+
+v343.19 - 02/24/2022 - Minor version for  servers
+
+    Fixed an overspawn on Lost Island
+
+v343.17 - 02/21/2022 - Minor version for  clients
+
+    Fixed fishing mission on Genesis 1
+    Fixed a bug when fishing from the canoe
+
+v343.17 - 02/18/2022 - Minor version for  servers
+
+    Fixed fishing mission on Genesis 1
+
+v343.12 - 02/10/2022 - Minor version for  servers
+
+    Fixed several exploits
+
+v343.11 - 02/09/2022 - Minor version for  clients
+
+    Fixed a crash related to opening remote inventories with hoversails inside of them
+
+v343.7 - 02/09/2022 - Major version for servers and clients
+
+     Love is in the air! Love Evolved is live from Feb 9th to Feb 16th!  Use the server parameter -ActiveEvent=vday to begin the event.
+    For the duration of Love Evolved, we will be disabling the world buffs from Baby Boon & Maewing Poach on Genesis Part 2 on the Official Network. In the past, we've adjusted for the impact event have had on the rates by tweaking the bonuses that we use during the holidays, however, those tweaks lead to unfavorable circumstances on maps that aren't Genesis Part 2, so going forward during breeding events, we'll be disabling these mission buffs specifically as not to affect the bonuses on other maps.
+    Player will no longer punch when cycling through snap points on Xbox while using RB
+    Dinopithecus will no longer drop its follow target when it has an attacking target
+    Additional players will no longer be deleted when riding a Mega MEK
+    Wild Noglins can now be targeted by Plant X
+    Turret mode is now disabled after a Parasaur dies
+    Fixed an issue where adjusting DinoCountMultiplier on an unofficial server prevents quetz, spino and tuso spawning
+    The egg incubator gestation monitoring buff will now correctly display the embryo stats of Unicorns
+    The egg incubator HUD will now show when trying to check Megaloceros stats
+    Element reward has been increased on King Dinopithecus by 33%
+    Tek Shoulder Cannon will now turn back on after dismounting an Exosuit
+    Fixed an issue with the mammoth drum buff
+    Fixed several map holes on Lost Island
+    Fixed floating foliage on Lost Island
+    Fixed an overspawning issue in Lost Island cave
+    Fixed an issue that required players to install The Center DLC to play on Ragnarok
+    Added "exact match" parameter to some cheats: cheat DestroyAll "classname" 1
+    Fixed multiple exploits
+
+Current Version: v342.22 - 01/27/2022 - Minor version for servers
+
+    Fixed an exploit
+
+v342.20 - 01/27/2022 - Minor version for servers
+
+    Performance adjustments for Lost Island
+    Fix for server crash
+
+v342.17 - 01/24/2022 - Minor version for servers
+
+    Fixed an exploit
+
+v342.16 - 01/19/2022 - Minor version for clients
+
+    Fixed an issue that prevented completion of the Star Dolphin mission
+    Fixed SInomacrops losing taming progress if food drops below 50%
+    Sinomacrops will no longer eat kibble
+
+v342.15 - 01/13/2022 - Minor version for servers
+
+    Server-side foliage optimization for Lost Island
+
+v342.13 - 01/12/2022 - Minor version for servers
+
+    Fixed an issue that prevented completion of the Star Dolphin mission
+    Fixed SInomacrops losing taming progress if food drops below 50%
+    Sinomacrops will no longer eat kibble
+
+v342.9 - 01/10/2022 - Minor version for servers
+
+    Fixed several exploits
+
+v342.2- 01/05/2022 - Major version for servers and clients
+
+    Fixed some exploits
+    Fixed some holes in lost island
+    Fixed some crashes
+    Addressed some overspawning issues on Lost Island
+    Can no longer place dermis of creatures in taxidermy/training dummy if that creature is not transferrable to a given map
+    Fix loot crate spawns of Massive/Devious artifacts
+    Fix for fertilized voidwyvern eggs not decaying
+    Reduced fog while underwater
+    Fixed some clutter & foliage
+    Adjustments & fixes to Amargasaurus
+    Fixes to Sinomacrops
+    Adjusted respawn map and global LAT/LON coords to be more accurate on Lost Island
+    Fixed large beaver dams being invisible for some clients on Lost Island
+    Fixed an issue where some dinos were marked as not tameable in caves on Lost Island
+
+Current Version: v341.59 - 12/30/2021 - Minor version for servers
+
+    Fixed an exploit
+
+v341.56 - 12/23/2021 - Minor version for servers
+
+    Fixed a creature overspawn issue
+    Enabled New Year event
+    Fixed an exploit
+
+'Happy New Year!' event is now enabled on Official Servers. The event is set to go off at approximately Midnight EST and Noon EST on the 1st of January 2022. Servers running the event will be bombarded with raining gifts in a hail of fireworks to mark the end of 2021. These gifts will contain a collection of your favourite skins from past events that are currently unavailable and a chibi bonanza! And by bonanza, we mean, the drop rate of Rare, Very Rare and Legendary chibis will be dialled to over 9000!
+Unofficial Servers can enable the event with the following commandline param: -NewYearEvent
+To modify the times, the following commandline parameters can also be used:
+
+?NewYear1UTC=1640995200
+?NewYear2UTC=1641038400
+You can use https://www.epochconverter.com/ to get your appropriate timestamp. Please keep in mind that this event cannot be run before Midnight EST on the 1st of January 2021, so if you wish to change your time it would have to be set after that.
+Some additional notes:
+This event can only be run ONCE on a savefile (with 2 triggers).
+If a server is set to run the event at a time already passed, then on load the server will immediately trigger the gifts.
+If a custom time isn't set, then the event will run default at Midnight EST on the 1st and again at Noon.
+
+v341.33 | 341.36 (client) - 12/16/2021 - Minor version update for clients and servers
+
+    Fixed several exploits
+    Various map fixes for Lost Island
+    Sinomacrops can now be transferred to Aberration
+
+v341.31 - 12/16/2021 - Minor version update for servers
+
+    Fixed various mesh holes on Lost Island
+    Dinopithecus now has faster and sticky grenades
+    Disabled flyers and jetpack in boss arena
+    Level weight has been adjusted on Lost Island so that it'll be more likely to find higher level creatures
+
+v341.30 - 12/15/2021 - Minor version update for clients and servers
+
+    Fixed a bug which the Loadout Dummy, Taxidermy, and Training Dummy where the dermis was being destroyed, which in turn also destroyed anything that was equipped to the dermis. We'll be rolling back Official PC servers to right before the .28 deployment to restore any player data that was lost due to this bug.
+
+v341.28 - 12/15/2021 - Minor version update for servers
+
+    Improved mesh detection in the Lost Island desert
+    Magmasaur's can now be raised with sulfur
+    Improved Amargasaurus AI
+    Fixed volcano ground clutter issues
+    Improved Dinopithecus melee attacks
+
+v340.19 - 12/14/2021 - Major version update for clients and servers
+
+    Free DLC 'Lost Island' is now available! Introducing a new map with over 150 sq km playable area, and 3 new creatures; the Amargasaurus, Dinopithecus, and Sinomacrops!
+    Winter Wonderland will be making a triumphant return with new presents and goodies for ARK survivors. Use the server parameter -ActiveEvent=WinterWonderland to begin the event.
+    For the duration of Winter Wonderland, we have disabled the world buffs from the Genesis Part 2 Missions on the Official Network: Baby Boon & Maewing Poach. In the past, we've adjusted for the impact this event has had on the rates by tweaking the bonuses that we use during the holidays, however those tweaks lead to unfavourable circumstances on maps that aren't Genesis Part 2, so going forward during breeding events, we'll be disabling these mission buffs specifically as not to affect the bonuses on other maps.
+    QOL: New TEK Egg Incubator Buff 'Gestation Monitoring' - activating this buff grants your character the ability to view the embyro's stats of gestating creatures or reset the creature's gestation.
+    Fixed some exploits
+    Fixed some server and crashes
+    Fixed a bug where the TEK Bow would fire inconsistently
+
+v340.12 - 11/29/2021 - Minor version update for servers
+
+    Fixed an exploit
+
+v340.10 - 11/29/2021 - Minor version update for servers
+
+    Fixed an issue that prevented Exo-Mek from being deployed
+
+v340.8 - 11/29/2021 - Minor version update for servers and clients
+
+    Fixed a crash that occurred when trying to complete the "Survive The  ARK" mission
+    Fixed an issue for non-dedicated servers that prevented players from joining when using a DLC map
+
+v340.3 - 11/23/2021 - Major version
+
+    Turkey Trial 5 begins!  See below for the event details
+    Fixed several exploits
+
+ 
+
+v339.40 - 11/18/2021 - Minor version update for servers 
+
+    Fixed an exploit
+
+v339.34 - 11/12/2021 - Minor version update for servers 
+
+    Fixed several exploits
+
+v339.28 - 11/9/2021 - Minor version update for servers 
+
+    Fixed an exploit
+
+
+v339.20 - 11/4/2021 - Minor version update for servers 
+
+    Fixed a serious exploit related to 3rd party software
+    Fixed an exploit 
+    Reduced AmountMaxGainedPerLevelUpValue on Tapejara from 0.2 to 0.17. This will essentially result in a 15% reduction in overall HP. 
+
+ 
+
+v339.14 - 10/29/2021 
+
+    Fixed multiple level-design related bugs such as holes, floating foliage, incorrect volumes, etc on Crystal isles
+    Fixed Rockdrakes so they can now be neutered and spayed
+    Temporarily removed Hexagons from Genesis 1 glitches whilst we work through a related exploit 
+
+
+
+v339.7 - 10/26/2021
+
+    Prevented the Dodorex/Dodowyvern from being mindcontrolled by the Noglin
+
+v339.5 - 10/26/2021
+
+    Fear Evolved 5 is now live
+
+    Fixed some exploits
+
+ v338.41 - 10/21/2021
+
+    Fixed multiple exploits
+    Fixed a bug where the player and Stego were immune to being netted
+
+v338.35 - 10/20/2021
+
+    Fixed multiple exploits
+    Increased Astrodelphis Missile/Homing Missile cooldown to 1 second. Does not affect the Mission variant.
+
+v338.31 - 10/18/2021
+
+    Fixed an exploit
+
+v338.30 - 10/16/2021
+
+    Fixed an exploit
+
+v338.29 - 10/15/2021
+
+    Mana breath damage to players reduced by 20%
+    Turret health buff has now been updated and will no longer require the replacing of turrets to take effect
+    Fixed an exploit
+
+v338.23 - 10/15/2021
+
+Balance
+Blood Stalker
+
+    Reduced piercing damage from 85% to 65%.
+    Players grappled now get a 20 second immunity buff from being webbed by the Bloodstalker again
+    No longer unequips player’s melee weapon when webbed
+
+Wyverns
+
+    Reduced Wyvern HP gained per level by approximately 20%
+    Reduced armour penetration on Lightning Wyvern beam attack by approx 20%
+    Buffed Fire Wyvern right-click attack by approx 30%
+    Prevented Void Wyvern from performing a right-click attack unless mounted by a rider
+    Adjusted Wyvern base drag weight to match Crystal Wyverns so that they behave similarly against items that take this into consideration, such as the Net Ammo. (Therefore Fire, Lightning, and Poison Wyverns can now be netted).
+
+Noglin 
+
+    Now targetable by Plant X
+    Takes reduced damage from Plant X when attached to a player
+
+Net Ammo
+
+    Increased durability usage on Harpoon Gun for net ammo specifically. Cost per net fired increased by approx 250%
+    Increased weight of weight ammo from 0.2 to 2.0
+
+Mammoth
+
+    Prevented being dismounted from creature when you are buffed by the Mammoth
+    Mammoth war drummer now gets 40% damage mitigation whilst drumming
+
+
+Shadowmane
+
+    Reduced the range the stun attack can target horizontally by 20% 
+    Increased the holding space bar jump distance by 20%
+    Reduced how many targets the Shadowmane can chain stun when right-click is held to 7 targets from 15 targets
+    Increased cooldown of teleport attack from 4.5 seconds to 15 seconds and each target added increases the cooldown by 2 seconds rather than 1 second - Increased the length of the immunity buff after a player has been stunned by the Shadowmane from 30 seconds to 50 seconds.
+    Reduced passive creature armour from 124 to 80 and reduces its armour gained per level by 35%
+
+Global Stun Immunity Buff
+
+The following dismounts will now respect an overriding dismount immunity buff when the effect is created by any of the following creatures and items:
+
+    Void Wyvern
+    Shadowmane
+    Netgun
+    Flash bang (Plant Z Grenade)
+
+Miscellaneous Balance
+
+    Prevented the Exo mek from filling turrets that have recently fired
+    Increased Megalosaurus damage with the night time buff by approx 25%
+    Increased Tek Turret HP by 100%
+
+Quality of Life and Misc.
+
+    Increased slots on the Industrial Grinder from 60 to 120
+    Expanded the Tek Cloner register range by 3x
+    Reduced Tek Surveillance Console Stack Size from 100 to 5
+    Display a HUD whilst holding H with tek Glove equipped displaying player location and upload timer
+    Increased Magmasaur’s smelting output by 100%
+    Enabled auto-harvest on Ankylosaurus
+    Enabled breeding on Rockdrakes
+    Enabled breeding on Achatina ;)
+    Fixed some exploits
+    Fixed a bug where TEK Stryders and MEKs would not regain health in stasis
+    Fixed a bug where MEK modules would lose durability when released from cryopod
+    Two new admin commands: cheat drainwater <number> and cheat drainfood <number>
+    Fixed a bug where the Dedicated Storage Box would ignore stack modifiers in server config files
+    Fixed a bug where caused Plant Z to no longer heal dinos
+    Fixed a bug where Soap would remove textures from some structures
+    Fixed a bug where Cosmetics on the Shadowmane would not retain their colour
+
+v337.41 - 10/13/2021
+
+    Additional Official Server logging/debugging information
+    Fixed an exploit
+
+v337.36 - 10/12/2021
+
+    Further iteration on Server logging/debugging information 
+
+v337.35 - 10/10/2021
+
+    Additional Official Server logging/debugging information
+    Fixed an exploit
+
+v337.33 - 10/10/2021
+
+    Additional Official Server logging/debugging information
+
+v337.21 - 10/08/2021
+
+    Temporarily prevented the Noglin from gaining torpidity
+
+v337.20 - 10/01/2021
+
+    Fixed an exploit
+
+v337.17 - 09/29/2021
+
+    Fixed an exploit
+
+v337.16 - 09/23/2021
+
+    Fixed an exploit
+
+v337.15 (clients are .13) - 09/20/2021
+
+    Fixed multiple exploits
+    Fixed a bug where pressing "Spacebar" to bring up the camera list would shrink the UI each time
+    Fixed a bug where weapons on the Loadout Mannequin would equip to feet
+    Fixed some typos in text strings
+    Fixed server versioning
+    TEK Security Console Cameras are now able to be unlinked remotely
+    Fixed servers not showing up when attempting to transfer between servers on Stadia
+    Adjusted default Stadia video settings to support increased view distance and better texture quality. The following settings can also be adjusted in the options: post processing and view distance.
+
+v678.51 - 09/17/2021
+
+    Fixed multiple exploits.
+    Fixed a bug where Explorer Notes would not unlock properly on Genesis Part 1 and Genesis Part 2. Any missing Genesis Part 2 note can be re-collected, and Genesis Part 1 notes should be fixed retroactively however may require you to respawn on Genesis Part 1.
+    Fixed a bug where empty dedicated storage boxes would leave empty bags when destroyed
+    Added 3 more buttons to Dedicated Storage boxes to withdraw 1, 5, and 10 items.
+
+v678.46 - 09/15/2021
+
+    Fixed an issue related to the placement of new dedicated storage boxes failing to retain items after a restart. 
+
+v678.45 - 09/14/2021
+
+    Fixed an exploit
+    Refactored TEK Dedicated Storage. This is a rework of the structure for server optimization, it should improve stability across the board due to huge memory-savings on large/active servers. It will generally function the same. You can still deposit and withdraw, but there are a few changes to be noted:
+
+    You'll now be able to slot cap yourself directly using the Transfer All button when using the dedicated storage and it will ignore your weight.
+    You'll no longer see an inventory inside the dedicated storage box when opening it, don't worry, your items are still there.
+    You'll no longer be able to popcorn (Spamming the 'O' key to drop items) from the dedicated storage directly, (but you can now transfer a slot cap into your own inventory and popcorn from there).
+
+v678.37 - 09/10/2021
+
+    Fixed a network incompatibility which caused clients to disconnect when interacting with certain structures
+
+v678.32 - 09/10/2021
+
+    Fixed an issue with a bad build which caused game content to be destroyed. If you had updated your server to .30, you'll need to patch to .32, and may need to roll back your save file.
+
+v678.30 - 09/10/2021
+
+    Genesis Part One Mission Hexagon Rewards increased
+    Fixed multiple exploits
+
+v678.20 - 09/08/2021
+
+    Fixed some incorrect volumes in Mission Zones
+    Fixed a bug where Mini-HLNA emotes didn't play for female characters
+    Fixed a bug where Mantis was not able to harvest with tools
+    Fixed some exploits
+
+v678.13 - 09/02/2021
+
+    Fixed some cases where players could fail to connect to servers
+    Fixed some crashes
+    Fixed some cases where Mission Dinos could spawn under the mesh
+    Fixed some cases where Mini-HLNA would no longer play its emotes
+    Fixed a bug where the Ferox's insulation buff was not correctly applying
+
+v678.10 - 08/31/2021
+
+    Updated Vivox (voice chat & backend)
+    Fixed some exploits
+
+v336.23 - 08/30/2021
+
+    Fixed multiple exploits
+    Fixed a bug where kill notifications would not appear
+    Fixed multiple level-design related bugs such as holes, floating foliage, incorrect volumes, etc
+
+v336.12 - 08/24/2021
+
+    Fixed some exploits
+
+v336.3 - 08/17/2021
+
+    Fixed some exploits
+    Fixed a bug where the Mutagen nearby buff icon would not display properly
+    Fixed a bug where the Raft and Motorboat would not work properly in some water volumes
+    Fixed a bug where the TEK Stryder bed would duplicate itself on the respawn UI
+    Fixed a bug where Charge Batteries would not recharge in stasis'd TEK Stryders
+    Fixed a bug where creatures would spawn above the map on some levels
+    Fixed a bug where HLNA teleportion would not work when the game is run different languages
+    Fixed a bug where certain creature abilities would not work when the game is run different languages
+    Fixed a bug where the Loadout Mannequin's hotbar would no longer work when using blueprints
+    Fixed a bug where Mutagen bulbs would fall through the map in certain cases
+    Fixed multiple bugs with the Noglin causing problems when taming and possessing.
+    Fixed a bug where some missions would not start properly/could not be completed.
+    Fixed a bug where some subtitles were not playing when the game is run in different languages
+    Fixed a bug where Explorer Note VO would constantly repeat if you return to the location.
+    TEK Dedicated Storage box now supports its quantity display on various sides of the structure and has some QOL features to enable these on multiple boxes easily.
+
+v335.8 - 08/11/2021
+
+    Fixed multiple possession related bugs with the Noglin
+    Fixed a bug where players would not get twins or triplets when hatching/birthing babies on PC
+    Fixed a bug which caused Eggs to not be visible in the Egg Incubator
+    Fixed a bug where certain creature abilities would not work when the game is run different languages
+    Fixed some exploits
+    Fixed some localisation bugs
+    Fixed some level design related bugs such as holes, floating foliage, incorrect volumes, incorrect damage multipliers
+
+v334.3 - 08/05/2021
+
+    Fixed some exploits.
+    Fixed a bug that prevented players from repairing items in Dino Inventories that functioned as Smithy.
+    Fixed a bug that caused the Charge Lantern to lose quality when placed and picked up.
+    Fixed a bug that prevented some boss flags from being placed.
+    Fixed some voiceover bugs.
+    Fixed some PVE Exploits.
+    Fixed some incorrect spawns with Summoner.
+    Fixed some areas that prevented Megachelon from building.
+    Fixed some client stalls when using the TEK Incubator.
+    Fixed a bug which could cause items to be lost in the Loadout Mannequin when using a non-survivor dermis.
+    Fixed a bug where players were being killed when entering a mission mounted from a Stegosaurus.
+    Fixed a bug where some Explorer Notes would repeat themselves on unlock.
+    Reworked the Shadowmane leap so that it works better on servers with low framerate and fixed a bug where it would jump too far in some cases
+    Removed some redundant options in metal elevator platform multi-use wheel
+    TEK Stryder beds are now named after the TEK Stryder itself
+    Made some balance tweaks to Trap and Hunt missions to reduce overall difficulty
+
+v333.15 - 07/29/2021
+
+    Fixed some server side crashes
+
+v334.13 - 07/28/2021
+
+    Fixed some miscalculations with Noglin's taming effectiveness
+    Fixed some cases where certain structures were not respecting Tribe Rank Rules
+    Fixed some level design related bugs such as holes, floating foliage, incorrect volumes, incorrect damage multipliers.
+    Fixed a bug where the Egg Incubator would not display stats for certain creature eggs, such as the Bloodstalker and Megachelon
+    Fixed a bug where Cryopod UI would display incorrectly display hidden colour regions
+    Fixed a bug which prevented TEK Skiffs from being crafted due to nearby Voidwyrms
+    Fixed a bug which prevented resources from respawning due to nearby Voidwyrms
+    Fixed a bug which caused Gacha's to provide the wrong fungal wood
+    Fixed some more edge cases where Noglins' could still fly certain flying creatures under water
+    Fixed some more edge cases where mission data could have been lost
+    Prevented being able to drop eggs in the non-overworld Mission zones (such as Survive The ARK)
+    Fixed some exploits
+    Fixed some server and client crashes
+    Unofficials can now enable additional dupe protection using the following commandline:
+        -UseItemDupeCheck (Note: this could have an impact on mods, so use with caution)
+
+v333.4 - 07/22/2021 (Major version update)
+
+    Fixed a bug where defeating King Kaiju wouldn't display on your implant
+    Fixed a bug where Baryonyx wouldn't regenerate health on killing fish
+    Fixed a bug with Brontosaurus IK
+    Fixed some level design related bugs such as holes, floating foliage, incorrect volumes, incorrect damage multipliers.
+    Fixed a bug where players would be unable to remount the Voidwyrm if the player was killed during the taming process
+    Fixed a bug causing visual artifacts in water
+    Fixed a bug where some wild creatures wouldn't be able to damage each other
+    Fixed a bug where you wouldn't be able to use '0000' as a valid pin on Pressure Plates & TEK Sensors
+    Fixed a bug where Lamp Post, Omni Lights, and TEK Lights were having their options reset when you would leave stasis/render distance
+    Fixed a bug which allowed the Zero G buff to persist outside of the space biome
+    Fixed & protected against multiple exploits
+    Fixed & protected against multiple server and client crashes
+    Fixed a bug which caused unclaimed baby dino corposes to fall through the map when killed
+    Fixed a bug where Shadowmane could do higher than intended damage in some cases
+    Fixed a bug where turrets that were powered by the "Copy Settings" feature would not automatically turn back on when the generator they were powered by was refueled.
+    Fixed a bug which made players unable to use the TEK Sword charge ability when the Shoulder Cannon was equipped
+    Fixed some false positive anti-mesh detection
+    Plant Species R decay timer has been increased to 20 days
+    TEK Sensor and canvas now respect enemy foundation range
+    Made some tweaks to the Starwing Strike race so it can no longer be completed without moving the Astrodelphis.
+    Creatures spawned by Hunt Missions can no longer be netted
+    Shadowmane can no longer jump/blink when it has C4 attached to it (similarly to the Managarmr)
+    Updated some text string to be more accurate
+    Two new admin commands:
+        Cheat AddChibiExp <HowMuch>
+        Cheat AddChibiExpToPlayer <PlayerID> <HowMuch>
+
+v332.12 - 07/20/2021 (Client)
+
+    Fixes some cases where certain Explorer Notes would not play when accessed via the Explorer Note UI
+
+v332.14 - 07/20/2021 (Server)
+
+    Fixed a bug which caused hitscan weapons (such as the Fabricated Sniper Rifle) to be highly inaccurate/unreliable, especially against moving targets or when you were moving as the shooter.
+
+v332.13 - 07/15/2021
+
+    Significantly reduced the delay when transferring items between inventories or dropping items on the ground (a side effect of a crash and stall related fix from the previous patch)
+    Noglins can attach to flyers and use them in non-flyzones but not underwater
+    Net immunity cooldown increased from 10 seconds to 30 seconds
+    When releasing a dino from a cryopod on servers using bEnableCryopodNerf, the creature will not be able to be netted for the duration of that buff. On Official PvP, this is set to 10 seconds.
+
+v332.11 - 07/15/2021
+
+    Fixed a bug where you could get inaccurate taming effectiveness on some creatures
+    Fixed some exploits
+    Fixed some client and server crashes
+    Fixed some server stalls
+    Fixed Megalodon gestation time (once again matches Megaloceros)
+    Fixed some placement issues with some trophies
+    Fixed a lot of level design related bugs such as holes, floating foliage, incorrect volumes, incorrect damage multipliers.
+    Structures built on a Hoverskiff will forward damage to the skiff (does not forward damage from Wild creatures)
+    Fixed some Desync reports
+    Fixed a bug where HLNA crafting Explorer Notes would not unlock when using different characters on the same account
+    Fixed some cases on Genesis Part 1 where the Explorer Notes would not unlock properly on the server
+    Exintction Explorer Note #21 has been moved so it is no longer in the mesh
+    Fixed a case where wild Snow Owls wouldn't be able to attack
+    HLNA opacity settings now affect her movement SFX
+    Fixed a bug where the Hoverskiff would not take off in Genesis Part 1: Tokyo Skiff mission
+    Fixed a bug where some saddle engrams were missing from their respective crafting stations
+    You can no longer build through Mission Dispatchers on Genesis Part 2
+    Fixed some mesh exploits
+    Fixed a bug where you couldn't craft TEK Replicator on Genesis Part 1
+    Fixed a bug where TEK Stryder transmitter inventory was being wiped on server load
+    Fixed a bug where players could move Netted Creatures
+    Fixed some cases where the Noglin could attach in cases it shouldn't, and some cases where after a Noglin has attached it would be in a broken state.
+    Fixed a bug on the Starwing Strike mission where your camera could get stuck using a gamepad
+    Noglins now respect no flyer rules (maps, volumes, and water volumes).
+    6x Structure Damage has been removed from vents on Genesis Part 2
+    Fixed a case where players sometimes did not get their race creatures/canoe.
+    Fixed a bug where some Genesis Part 2 creatures were not able to hit level 500 on Official Servers
+    Fixed some shader/visual issues with SM4
+
+v332.8 - 07/02/2021
+
+    Enabled the Full Hexagon Store on Official Genesis Part 2 Servers
+    Reduced Cuddle Interval on Slide and Glide Mission from 0.5 to 0.1 to increase time between imprints (maturation and imprint bonuses remain the same)
+    Fixed some mesh exploits
+    Fixed some crashes
+    Fixed a case where players would not be able to unlock Explorer Notes on Genesis Part 2
+    Fixed some issues SFX issues with HLNA
+
+v332.6 - 07/01/2021
+
+    Fixed an exploit with character authentication (EGS)
+    Fixed a bug where mission levels would not unload properly
+    Fixed a bug with the Mission UI
+    Fixed a bug where a random asteroids would momentarily appear on low framerate servers during space warp
+    Fixed some cases on PVE where players could build in building-prevented areas
+    Fixed a case where some Mission Dinos were not being properly destroyed
+    Nets are no longer effective against alpha creatures
+    Fixed some exploits
+    Fixed some client and server crashes
+    Fixed a case where players would randomly die to fall damage in the Starwing Strike mission on low framerate servers
+    Fixed some mission VO bugs
+    Fixed some cases where players could exploit certain mechanics to make missions trivial
+
+v332.1 - 06/30/2021
+
+    Summer Bash is now live! For more details:
+    Re-added missing cosmetic items from a previous event
+    Fixed and protected against multiple exploits
+    Fixed multiple crashes and exploits
+    Fixed a bug where turrets wouldn't shoot unclaimed creatures
+    TEK Pistol has reduced damage when used against boss monsters
+    Velonasaur spawns have been updated on GEN2 to use the R-Velonasaur
+    Mission Net Ammo no longer works on non-mission creatures
+    Fixed a bug which prevented players from being able to place C4 properly
+    Fixed a lot of level design related bugs such as holes, floating foliage, incorrect volumes.
+    Fixed some SFX bugs with the Stryder
+    Fixed a bug where players were unable to remove cosmetics from the Shadowmane
+    Maewings now have a toggle visible trough area
+    Reduced Equus gestation time
+    Fixed a bug where players could speed up the taming process by using a Stego's impale mechanic
+
+v331.19 - 06/26/2021
+
+    Fixed TEK Generator enemy placement radius being too low on PVP
+    Fixed a case where cryopods were being destroyed when releasing cryopoded-creatures
+    Fixed & protected against multiple exploits
+    Copy Dino Settings now only applies to dinos of the same type/variant (i.e Parasaur, X-Parasaur, etc)
+    Copy Dino Settings now has a timer and release, akin to unclaiming a creature, to prevent accidental usage.
+
+v331.11 - 06/24/2021
+
+    Fixed some cases where the Explorer Notes would not unlock properly on the server (to get the first HLNA explorer note, make sure to hit the reset cinematics button in your options - note that you only unlock Explorer Notes once HLNA has finished all her lines.)
+    Fixed a bug where the WorldBuffScalingEfficacy would break harvesting rates
+    Prevented some Rockwell & Eden variants creatures on Aberration that weren't native to the map (https://survivetheark.com/index.php?/forums/topic/617465-an-update-concerning-genesis-2-r-variants-on-aberration/)
+    Enabled creature downloads on Aberration for the Genesis Part 2 permitted creatures, including Stryder, Maewing, Shadowmane, Noglin, and some R-variants.
+    Fixed multiple level design related bugs such as holes, volumes, and floating folliage.
+    Shadowmane baby food consumption has been reduced
+    Fixed a bug where Maewing babies in baskets could be lost on server start up
+    Fixed cases where the "hacking" mini game could fail incorrectly when taming the Stryder, and also made it more reliable on all servers. 
+
+v331.7 - 06/22/2021
+
+    Fixed an issue with Genesis Part 2 not using the correct octree causing performance problems
+    Reduced the Lazer range of the Astrodelphis (does not affect mission version of Astrodelphis)
+    Astrodelphis Lazers now respect armor when applying damage (does not affect mission version of Astrodelphis)
+    Adjusted Mantis Feeding to prevent it from starving when fed Rhino Horns
+    Fixed a bug where the Astrodelphis baby would get stuck inside the mother on spawn
+    Fixed a mesh exploit
+
+v331.1 - 06/20/2021
+
+    Fixed an exploit with character authentification
+    Fixed multiple server crashes
+    Fixed an edge case bug where feeding the Shadowmane would not result in an affinity gain
+    Fixed a bug where the Global Mission Reward bonuses were overriding dynamic rates
+    Astrodelphis homing missile no longer targets players
+
+v330.8 - 06/18/2021
+
+    Multiple TEK Engrams (Replicator, Teleporter, Trough, Forcefield, Dedicated Storage, Armour, Rifle, Turret, Generator) were added to the Genesis Part 2 boss fight
+    Hoversail no longer falls in Zero G (Boost is always active)
+    Net Ammo loaded into a Harpoon Launcher can now be used underwater
+    Mantis will now accept Rhino Horns for taming, at a lower affinity than Deathworm horns
+    Noglins can no longer attach to babies
+    Fixed a bug where Voidwyvrm wasn't gaining bonus levels after taming
+    Fixed some VFX and SFX bugs with the Voidwyrm
+    Fixed some VFX and SFX bugs with the Stryder
+    Fixed some bugs with the Stryder which affected transferring items to and from the dedicated storage, as well as accessing some aspects of its pinwheel
+    Fixed a bug where players could errenously remove attachments from their Stryders
+    Fixed a bug where Stryder's taming effectiveness would drop from 100% to 0%
+    Stryders should no longer count towards the Global Platform Structure Limit
+    Increased the Stryder hacking grace period to compensate for low framte rate servers
+    Fixed some visual issues with certain items on the Loadout Manneuquinne
+    TEK Explosive Arrow Damaged reduced by 25%
+    TEK Explosive Arrow projectile speed reduced by 33%
+    Astrodelphis Lazer damage reduced by 33%
+    Astrodelphis Grenade Bomb projectile speed reduced by 50%
+    Astrodelphis Lazers will no longer damage targets if it is encumbered
+    Fixed a case where the Astrodelphis homing missile would still damage riders even though it was targetting the creature
+    Note: We still plan to iterate on Astrodelphis balance.
+    Fixed multiple server and client stalls and crashes
+    Fixed some cases where creatures weren't properly playing the unconscious animation when being shot by a Net Ammo
+    Fixed a bug where the Space Asteroid resources weren't respawning on transition
+    Fixed a bug where the Genesis Part 1 Arrivial Protocol mission wasn't starting
+    Fixed some cases of false mesh detection
+    Fixed some exploits in missions that allowed you to keep the mission weapon longer than intended
+    Fixed a bug which allowed you to create loot caches that would expire in 10 seconds
+    Removed some invalid items from the Mission Loot & Supply Crate tables on Genesis Part 2
+    Updated some mission objective text on Genesis Part 2
+    Updated some descriptive text for items on Genesis Part 2
+    Fixed a case where HLNA notes would not play when mounted
+
 
 Current Version:  v318.9 - 11/24/2020
 
